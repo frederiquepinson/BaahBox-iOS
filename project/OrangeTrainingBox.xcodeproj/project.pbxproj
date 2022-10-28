@@ -18,8 +18,6 @@
 		468CFC3D217E17FE00E0553E /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468CFC3A217E17FE00E0553E /* Storyboards.swift */; };
 		46AFC783217DCCF10052C063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AFC782217DCCF10052C063 /* AppDelegate.swift */; };
 		46AFC78A217DCCF20052C063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AFC789217DCCF20052C063 /* Assets.xcassets */; };
-		46AFC798217DCCF20052C063 /* OrangeTrainingBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AFC797217DCCF20052C063 /* OrangeTrainingBoxTests.swift */; };
-		46AFC7A3217DCCF20052C063 /* OrangeTrainingBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AFC7A2217DCCF20052C063 /* OrangeTrainingBoxUITests.swift */; };
 		46AFC7CB217DD4220052C063 /* ParameterDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AFC7B3217DD4220052C063 /* ParameterDataManager.swift */; };
 		46AFC7CE217DD4220052C063 /* SheepGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AFC7B7217DD4220052C063 /* SheepGameScene.swift */; };
 		46AFC7CF217DD4220052C063 /* BalloonGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AFC7B8217DD4220052C063 /* BalloonGameScene.swift */; };
@@ -67,23 +65,6 @@
 		EBEFCAAF217F05E5006E20F6 /* BTHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFCAA7217F05E5006E20F6 /* BTHeaderCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		46AFC794217DCCF20052C063 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46AFC777217DCCF10052C063 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46AFC77E217DCCF10052C063;
-			remoteInfo = OrangeTrainingBox;
-		};
-		46AFC79F217DCCF20052C063 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46AFC777217DCCF10052C063 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46AFC77E217DCCF10052C063;
-			remoteInfo = OrangeTrainingBox;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		07CB4CC121F1E21C0098D1AF /* MuscleReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleReader.swift; sourceTree = "<group>"; };
 		465F8EC02201BECE00F99669 /* ExplosionParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExplosionParticle.sks; sourceTree = "<group>"; };
@@ -100,10 +81,8 @@
 		46AFC782217DCCF10052C063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46AFC789217DCCF20052C063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46AFC78E217DCCF20052C063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46AFC793217DCCF20052C063 /* OrangeTrainingBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeTrainingBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46AFC797217DCCF20052C063 /* OrangeTrainingBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeTrainingBoxTests.swift; sourceTree = "<group>"; };
 		46AFC799217DCCF20052C063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46AFC79E217DCCF20052C063 /* OrangeTrainingBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeTrainingBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46AFC7A2217DCCF20052C063 /* OrangeTrainingBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeTrainingBoxUITests.swift; sourceTree = "<group>"; };
 		46AFC7A4217DCCF20052C063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46AFC7B3217DD4220052C063 /* ParameterDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterDataManager.swift; sourceTree = "<group>"; };
@@ -162,20 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C0173C00044C98BA436AB63 /* Pods_OrangeTrainingBox.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46AFC790217DCCF20052C063 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46AFC79B217DCCF20052C063 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				46AFC77F217DCCF10052C063 /* OrangeTrainingBox.app */,
-				46AFC793217DCCF20052C063 /* OrangeTrainingBoxTests.xctest */,
-				46AFC79E217DCCF20052C063 /* OrangeTrainingBoxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -422,42 +385,6 @@
 			productReference = 46AFC77F217DCCF10052C063 /* OrangeTrainingBox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		46AFC792217DCCF20052C063 /* OrangeTrainingBoxTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46AFC7AA217DCCF20052C063 /* Build configuration list for PBXNativeTarget "OrangeTrainingBoxTests" */;
-			buildPhases = (
-				46AFC78F217DCCF20052C063 /* Sources */,
-				46AFC790217DCCF20052C063 /* Frameworks */,
-				46AFC791217DCCF20052C063 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46AFC795217DCCF20052C063 /* PBXTargetDependency */,
-			);
-			name = OrangeTrainingBoxTests;
-			productName = OrangeTrainingBoxTests;
-			productReference = 46AFC793217DCCF20052C063 /* OrangeTrainingBoxTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		46AFC79D217DCCF20052C063 /* OrangeTrainingBoxUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46AFC7AD217DCCF20052C063 /* Build configuration list for PBXNativeTarget "OrangeTrainingBoxUITests" */;
-			buildPhases = (
-				46AFC79A217DCCF20052C063 /* Sources */,
-				46AFC79B217DCCF20052C063 /* Frameworks */,
-				46AFC79C217DCCF20052C063 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46AFC7A0217DCCF20052C063 /* PBXTargetDependency */,
-			);
-			name = OrangeTrainingBoxUITests;
-			productName = OrangeTrainingBoxUITests;
-			productReference = 46AFC79E217DCCF20052C063 /* OrangeTrainingBoxUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -470,14 +397,6 @@
 				TargetAttributes = {
 					46AFC77E217DCCF10052C063 = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					46AFC792217DCCF20052C063 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 46AFC77E217DCCF10052C063;
-					};
-					46AFC79D217DCCF20052C063 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 46AFC77E217DCCF10052C063;
 					};
 				};
 			};
@@ -496,8 +415,6 @@
 			projectRoot = "";
 			targets = (
 				46AFC77E217DCCF10052C063 /* OrangeTrainingBox */,
-				46AFC792217DCCF20052C063 /* OrangeTrainingBoxTests */,
-				46AFC79D217DCCF20052C063 /* OrangeTrainingBoxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -517,20 +434,6 @@
 				46E35103286B322500AE6758 /* SNCRASH1.wav in Resources */,
 				467ED811217E1A7F006FB1DB /* LaunchScreen.storyboard in Resources */,
 				46AFC7E3217DD43C0052C063 /* Games.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46AFC791217DCCF20052C063 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46AFC79C217DCCF20052C063 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,36 +545,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46AFC78F217DCCF20052C063 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46AFC798217DCCF20052C063 /* OrangeTrainingBoxTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46AFC79A217DCCF20052C063 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46AFC7A3217DCCF20052C063 /* OrangeTrainingBoxUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		46AFC795217DCCF20052C063 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 46AFC77E217DCCF10052C063 /* OrangeTrainingBox */;
-			targetProxy = 46AFC794217DCCF20052C063 /* PBXContainerItemProxy */;
-		};
-		46AFC7A0217DCCF20052C063 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 46AFC77E217DCCF10052C063 /* OrangeTrainingBox */;
-			targetProxy = 46AFC79F217DCCF20052C063 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		468CFC34217E170B00E0553E /* Localizable.strings */ = {
@@ -820,7 +694,9 @@
 			baseConfigurationReference = 4EA3608B567524A4FAA6D3CC /* Pods-OrangeTrainingBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = MG2LSJNJB6;
 				INFOPLIST_FILE = OrangeTrainingBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -828,8 +704,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBox;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.cocoa.OrangeTrainingBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -840,7 +718,9 @@
 			baseConfigurationReference = 9A556676A4824FC4756446E4 /* Pods-OrangeTrainingBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = MG2LSJNJB6;
 				INFOPLIST_FILE = OrangeTrainingBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -848,92 +728,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBox;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.cocoa.OrangeTrainingBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		46AFC7AB217DCCF20052C063 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MG2LSJNJB6;
-				INFOPLIST_FILE = OrangeTrainingBoxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBoxTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeTrainingBox.app/OrangeTrainingBox";
-			};
-			name = Debug;
-		};
-		46AFC7AC217DCCF20052C063 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MG2LSJNJB6;
-				INFOPLIST_FILE = OrangeTrainingBoxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBoxTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeTrainingBox.app/OrangeTrainingBox";
-			};
-			name = Release;
-		};
-		46AFC7AE217DCCF20052C063 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MG2LSJNJB6;
-				INFOPLIST_FILE = OrangeTrainingBoxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBoxUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OrangeTrainingBox;
-			};
-			name = Debug;
-		};
-		46AFC7AF217DCCF20052C063 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MG2LSJNJB6;
-				INFOPLIST_FILE = OrangeTrainingBoxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBoxUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OrangeTrainingBox;
 			};
 			name = Release;
 		};
@@ -954,24 +754,6 @@
 			buildConfigurations = (
 				46AFC7A8217DCCF20052C063 /* Debug */,
 				46AFC7A9217DCCF20052C063 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46AFC7AA217DCCF20052C063 /* Build configuration list for PBXNativeTarget "OrangeTrainingBoxTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46AFC7AB217DCCF20052C063 /* Debug */,
-				46AFC7AC217DCCF20052C063 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46AFC7AD217DCCF20052C063 /* Build configuration list for PBXNativeTarget "OrangeTrainingBoxUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46AFC7AE217DCCF20052C063 /* Debug */,
-				46AFC7AF217DCCF20052C063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
