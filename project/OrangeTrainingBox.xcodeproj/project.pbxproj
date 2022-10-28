@@ -31,6 +31,7 @@
 		46AFC7DE217DD4230052C063 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AFC7CA217DD4220052C063 /* Helper.swift */; };
 		46AFC7E3217DD43C0052C063 /* Games.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46AFC7E0217DD43C0052C063 /* Games.storyboard */; };
 		46B38EF32500EC2700B75C88 /* SpriteKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38EF22500EC2700B75C88 /* SpriteKitHelper.swift */; };
+		46C042A6290C1C65006F2A7D /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 46C042A5290C1C65006F2A7D /* fastlane */; };
 		46D5E73221CCAB3600E85B9B /* UIButtonBordered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5E73121CCAB3600E85B9B /* UIButtonBordered.swift */; };
 		46D5E73421CCADBD00E85B9B /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5E73321CCADBD00E85B9B /* GameState.swift */; };
 		46E35103286B322500AE6758 /* SNCRASH1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46E35102286B322500AE6758 /* SNCRASH1.wav */; };
@@ -98,6 +99,7 @@
 		46AFC7CA217DD4220052C063 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		46AFC7E0217DD43C0052C063 /* Games.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Games.storyboard; sourceTree = "<group>"; };
 		46B38EF22500EC2700B75C88 /* SpriteKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitHelper.swift; sourceTree = "<group>"; };
+		46C042A5290C1C65006F2A7D /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
 		46D5E73121CCAB3600E85B9B /* UIButtonBordered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBordered.swift; sourceTree = "<group>"; };
 		46D5E73321CCADBD00E85B9B /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		46E35102286B322500AE6758 /* SNCRASH1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SNCRASH1.wav; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 		46AFC776217DCCF10052C063 = {
 			isa = PBXGroup;
 			children = (
+				46C042A5290C1C65006F2A7D /* fastlane */,
 				46AFC781217DCCF10052C063 /* OrangeTrainingBox */,
 				46AFC796217DCCF20052C063 /* OrangeTrainingBoxTests */,
 				46AFC7A1217DCCF20052C063 /* OrangeTrainingBoxUITests */,
@@ -434,6 +437,7 @@
 				46E35103286B322500AE6758 /* SNCRASH1.wav in Resources */,
 				467ED811217E1A7F006FB1DB /* LaunchScreen.storyboard in Resources */,
 				46AFC7E3217DD43C0052C063 /* Games.storyboard in Resources */,
+				46C042A6290C1C65006F2A7D /* fastlane in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
