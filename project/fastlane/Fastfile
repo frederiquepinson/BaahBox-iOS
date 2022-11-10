@@ -25,7 +25,7 @@ APPLE_KEY_CONTENT = ENV["APPLE_KEY_CONTENT"]
 XCODE_XCWORKSPACE = "OrangeTrainingBox.xcworkspace"
 XCODE_PROJ = "OrangeTrainingBox.xcodeproj"
 XCODE_SCHEME = "Baah_FR"
-IPA_NAME = "BaahBox.ipa"
+IPA_NAME = "OrangeTrainingBox.ipa"
 
 platform :ios do
   lane :beta do

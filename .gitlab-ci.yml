@@ -6,6 +6,7 @@ build_project:
   stage: build
   only:
     - dev
+    - web
   script:
     - xcodebuild clean -project OrangeTrainingBox.xcodeproj -scheme Baah_FR | xcpretty
     - pod install
@@ -21,6 +22,7 @@ variables:
   LANG: "en_US.UTF-8"
 
 before_script:
+  - cd project
   - gem install bundler
   - bundle install
 
