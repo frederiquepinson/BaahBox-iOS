@@ -818,7 +818,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = MG2LSJNJB6;
 				INFOPLIST_FILE = OrangeTrainingBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -826,7 +826,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.cocoa.OrangeTrainingBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -839,7 +839,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = MG2LSJNJB6;
 				INFOPLIST_FILE = OrangeTrainingBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -847,7 +847,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.cocoa.OrangeTrainingBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
