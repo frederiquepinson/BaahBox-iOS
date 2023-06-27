@@ -35,6 +35,7 @@
 		46B38EF32500EC2700B75C88 /* SpriteKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38EF22500EC2700B75C88 /* SpriteKitHelper.swift */; };
 		46D5E73221CCAB3600E85B9B /* UIButtonBordered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5E73121CCAB3600E85B9B /* UIButtonBordered.swift */; };
 		46D5E73421CCADBD00E85B9B /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5E73321CCADBD00E85B9B /* GameState.swift */; };
+		46E35103286B322500AE6758 /* SNCRASH1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46E35102286B322500AE6758 /* SNCRASH1.wav */; };
 		46E5A95724FFA25D00F6EECD /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A95624FFA25D00F6EECD /* GameVC.swift */; };
 		46E5A95924FFA2FB00F6EECD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A95824FFA2FB00F6EECD /* GameScene.swift */; };
 		46EBAB242215CC3600AA542D /* SensorInputManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EBAB232215CC3600AA542D /* SensorInputManager.swift */; };
@@ -85,6 +86,10 @@
 
 /* Begin PBXFileReference section */
 		07CB4CC121F1E21C0098D1AF /* MuscleReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleReader.swift; sourceTree = "<group>"; };
+		46325FDF29CB04480052A242 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		46325FE029CB04480052A242 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		46325FE129CB04480052A242 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		46325FE229CB04480052A242 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 		465F8EC02201BECE00F99669 /* ExplosionParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExplosionParticle.sks; sourceTree = "<group>"; };
 		465F8EC2220208E900F99669 /* Star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Star.jpg; sourceTree = "<group>"; };
 		466FB24E21A2EFC700F19C65 /* UINavigationController+navbarTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+navbarTint.swift"; sourceTree = "<group>"; };
@@ -120,6 +125,7 @@
 		46B38EF22500EC2700B75C88 /* SpriteKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitHelper.swift; sourceTree = "<group>"; };
 		46D5E73121CCAB3600E85B9B /* UIButtonBordered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBordered.swift; sourceTree = "<group>"; };
 		46D5E73321CCADBD00E85B9B /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		46E35102286B322500AE6758 /* SNCRASH1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SNCRASH1.wav; sourceTree = "<group>"; };
 		46E5A95624FFA25D00F6EECD /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		46E5A95824FFA2FB00F6EECD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		46EBAB232215CC3600AA542D /* SensorInputManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorInputManager.swift; sourceTree = "<group>"; };
@@ -205,6 +211,17 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
+		46325FDE29CB04480052A242 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				46325FDF29CB04480052A242 /* Appfile */,
+				46325FE029CB04480052A242 /* Fastfile */,
+				46325FE129CB04480052A242 /* README.md */,
+				46325FE229CB04480052A242 /* report.xml */,
+			);
+			path = fastlane;
+			sourceTree = "<group>";
+		};
 		468CFC36217E17FE00E0553E /* CodeGen */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +243,7 @@
 		468CFC3E217E180D00E0553E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				46E35102286B322500AE6758 /* SNCRASH1.wav */,
 				465F8EC2220208E900F99669 /* Star.jpg */,
 				467ED80F217E1A7F006FB1DB /* LaunchScreen.storyboard */,
 				467ED80E217E1A7F006FB1DB /* Main.storyboard */,
@@ -243,6 +261,7 @@
 		46AFC776217DCCF10052C063 = {
 			isa = PBXGroup;
 			children = (
+				46325FDE29CB04480052A242 /* fastlane */,
 				46AFC781217DCCF10052C063 /* OrangeTrainingBox */,
 				46AFC796217DCCF20052C063 /* OrangeTrainingBoxTests */,
 				46AFC7A1217DCCF20052C063 /* OrangeTrainingBoxUITests */,
@@ -408,7 +427,6 @@
 				46AFC77B217DCCF10052C063 /* Sources */,
 				46AFC77C217DCCF10052C063 /* Frameworks */,
 				46AFC77D217DCCF10052C063 /* Resources */,
-				5192C01022FC3CDA000024E2 /* Check sources with SwftLint */,
 			);
 			buildRules = (
 			);
@@ -511,6 +529,7 @@
 				467ED810217E1A7F006FB1DB /* Main.storyboard in Resources */,
 				46AFC78A217DCCF20052C063 /* Assets.xcassets in Resources */,
 				EB7A290421CAB073000DBA43 /* Settings.storyboard in Resources */,
+				46E35103286B322500AE6758 /* SNCRASH1.wav in Resources */,
 				467ED811217E1A7F006FB1DB /* LaunchScreen.storyboard in Resources */,
 				46AFC7E3217DD43C0052C063 /* Games.storyboard in Resources */,
 			);
@@ -545,25 +564,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./swiftgen.sh\n./check-assets.sh\n./check-headers.sh\n";
-		};
-		5192C01022FC3CDA000024E2 /* Check sources with SwftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Check sources with SwftLint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"WARNING: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "./swiftgen.sh\n\n";
 		};
 		93CEBFB7BA3F7B32226DDBF6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -817,6 +818,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = MG2LSJNJB6;
 				INFOPLIST_FILE = OrangeTrainingBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -824,7 +826,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.cocoa.OrangeTrainingBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -837,6 +839,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = MG2LSJNJB6;
 				INFOPLIST_FILE = OrangeTrainingBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -844,7 +847,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.cocoa.OrangeTrainingBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
