@@ -10,7 +10,7 @@ build_project:
   script:
     - xcodebuild clean -project OrangeTrainingBox.xcodeproj -scheme Baah_FR | xcpretty
     - pod install
-    - xcodebuild -scheme -allowProvisioningUpdates Baah_FR -workspace OrangeTrainingBox.xcworkspace  | xcpretty
+    - xcodebuild -allowProvisioningUpdates -scheme Baah_FR -workspace OrangeTrainingBox.xcworkspace  | xcpretty
   tags:
     - ios
     - m1
@@ -25,7 +25,7 @@ before_script:
   - gem install bundler
   - bundle install
 
-test_flight_build:
+test_flight:
   dependencies: []
   stage: publish
   artifacts:
