@@ -1,6 +1,6 @@
 stages:
   - build
-  - test_flight
+  - publish
 
 build_project:
   stage: build
@@ -10,8 +10,7 @@ build_project:
   script:
     - xcodebuild clean -project OrangeTrainingBox.xcodeproj -scheme Baah_FR | xcpretty
     - pod install
-    - xcodebuild -scheme Baah_FR -workspace OrangeTrainingBox.xcworkspace  | xcpretty
-
+    - xcodebuild -scheme -allowProvisioningUpdates Baah_FR -workspace OrangeTrainingBox.xcworkspace  | xcpretty
   tags:
     - ios
     - m1
@@ -28,18 +27,15 @@ before_script:
 
 test_flight_build:
   dependencies: []
-  stage: test_flight
+  stage: publish
   artifacts:
     paths:
       - ./*.ipa
     expire_in: 1 week
   script:
-    - fastlane beta
+    - bundle exec fastlane buildAndPublishToTestFlight
   tags:
     - ios
     - m1
   only:
     - web
- # only:
-  #   - /^release-.*$/
-   #  - master

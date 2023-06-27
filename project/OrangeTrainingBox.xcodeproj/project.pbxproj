@@ -65,6 +65,7 @@
 		EBEFCAAC217F05E5006E20F6 /* BLEService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFCAA3217F05E5006E20F6 /* BLEService.swift */; };
 		EBEFCAAE217F05E5006E20F6 /* BTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFCAA6217F05E5006E20F6 /* BTCell.swift */; };
 		EBEFCAAF217F05E5006E20F6 /* BTHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFCAA7217F05E5006E20F6 /* BTHeaderCell.swift */; };
+		FDF5B5F62A4B363000862840 /* .gitlab-ci.yml in Resources */ = {isa = PBXBuildFile; fileRef = FDF5B5F52A4B363000862840 /* .gitlab-ci.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +159,7 @@
 		EBEFCAA6217F05E5006E20F6 /* BTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCell.swift; sourceTree = "<group>"; };
 		EBEFCAA7217F05E5006E20F6 /* BTHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTHeaderCell.swift; sourceTree = "<group>"; };
 		F68A8DF551A801AE28FE10EA /* Pods_OrangeTrainingBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrangeTrainingBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF5B5F52A4B363000862840 /* .gitlab-ci.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = ".gitlab-ci.yml"; path = "../.gitlab-ci.yml"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +263,7 @@
 		46AFC776217DCCF10052C063 = {
 			isa = PBXGroup;
 			children = (
+				FDF5B5F42A4B35E600862840 /* gitlab-ci */,
 				46325FDE29CB04480052A242 /* fastlane */,
 				46AFC781217DCCF10052C063 /* OrangeTrainingBox */,
 				46AFC796217DCCF20052C063 /* OrangeTrainingBoxTests */,
@@ -415,6 +418,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		FDF5B5F42A4B35E600862840 /* gitlab-ci */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5B5F52A4B363000862840 /* .gitlab-ci.yml */,
+			);
+			name = "gitlab-ci";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -532,6 +543,7 @@
 				46E35103286B322500AE6758 /* SNCRASH1.wav in Resources */,
 				467ED811217E1A7F006FB1DB /* LaunchScreen.storyboard in Resources */,
 				46AFC7E3217DD43C0052C063 /* Games.storyboard in Resources */,
+				FDF5B5F62A4B363000862840 /* .gitlab-ci.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
