@@ -76,6 +76,5 @@ platform :ios do
       ipa: "./#{IPA_NAME}"
     )
 
-
   end
 end
