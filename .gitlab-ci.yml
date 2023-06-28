@@ -9,7 +9,7 @@ build_project:
     - web
   script:
     - xcodebuild clean -project OrangeTrainingBox.xcodeproj -scheme Baah_FR | xcpretty
-    - pod install
+    - bundle exec pod install
     - xcodebuild -allowProvisioningUpdates -scheme Baah_FR -workspace OrangeTrainingBox.xcworkspace  | xcpretty
   tags:
     - ios
