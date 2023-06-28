@@ -34,6 +34,7 @@ platform :ios do
   end
   
   lane :buildAndPublishToTestFlight do
+    puts "This is a dumb 'puts' to ensure the 'Appfile' is read!"
     api_key = app_store_connect_api_key(
       key_id: APPLE_KEY_ID,
       issuer_id: APPLE_ISSUER_ID,
@@ -60,7 +61,6 @@ platform :ios do
         }
       }
     )
-
 
     news = "Nouvelle version available."
 
