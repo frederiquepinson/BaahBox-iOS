@@ -28,22 +28,18 @@ XCODE_SCHEME = "Baah_FR"
 IPA_NAME = "OrangeTrainingBox.ipa"
 
 platform :ios do
-
-  lane :update_build_number do
-      increment_build_number(xcodeproj: XCODE_PROJ)
-  end
   
   lane :buildAndPublishToTestFlight do
     puts "This is a dumb 'puts' to ensure the 'Appfile' is read!"
     api_key = app_store_connect_api_key(
-      key_id: APPLE_KEY_ID,
-      issuer_id: APPLE_ISSUER_ID,
-      key_content: APPLE_KEY_CONTENT,
+      key_id: "#{APPLE_KEY_ID}",
+      issuer_id: "#{APPLE_ISSUER_ID}",
+      key_content: "#{APPLE_KEY_CONTENT}",
       duration: 1200,
       in_house: false
     )
 
-    increment_build_number(xcodeproj: XCODE_PROJ)
+    increment_build_number(xcodeproj: "#{XCODE_PROJ}")
 
     cocoapods
 
@@ -52,12 +48,12 @@ platform :ios do
       build_path: "build_fastlane/Archives",
       buildlog_path: "build_fastlane/Log",
       configuration: "Release",
-      workspace: XCODE_XCWORKSPACE,
-      scheme: XCODE_SCHEME,
+      workspace: "#{XCODE_XCWORKSPACE}",
+      scheme: "#{XCODE_SCHEME}",
       export_method: "app-store",
       export_options: {
         provisioningProfiles: {
-            DEVELOPER_APP_ID => PROVISIONING_PROFILE_SPECIFIER
+            DEVELOPER_APP_ID => "#{PROVISIONING_PROFILE_SPECIFIER}"
         }
       }
     )
