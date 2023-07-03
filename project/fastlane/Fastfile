@@ -30,8 +30,8 @@ IPA_NAME = "OrangeTrainingBox.ipa"
 platform :ios do
   
   lane :buildAndPublishToTestFlight do
-    puts "This is a dumb 'puts' to ensure the 'Appfile' is read!"
-    apiKey = app_store_connect_api_key(
+    # puts "This is a dumb 'puts' to ensure the 'Appfile' is read!"
+    app_store_connect_api_key(
       key_id: "#{APPLE_KEY_ID}",
       issuer_id: "#{APPLE_ISSUER_ID}",
       key_content: "#{APPLE_KEY_CONTENT}",
@@ -61,7 +61,6 @@ platform :ios do
     news = "Nouvelle version available."
 
     upload_to_testflight(
-      api_key: apiKey,
       changelog: news,
       apple_id: "#{DEVELOPER_APP_ID}",
       app_identifier: "#{DEVELOPER_APP_IDENTIFIER}",
