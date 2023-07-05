@@ -17,7 +17,7 @@ build_project:
     - dev
     - web
   script:
-    - bundle exec fastlane buildForTestFlight
+    - echo "build for TestFlight" #bundle exec fastlane buildForTestFlight
   tags:
     - ios
     - m1
@@ -31,6 +31,8 @@ test_flight:
       - ./*.ipa
     expire_in: 1 week
   script:
+    - pwd
+    - ls -ltra
     - bundle exec fastlane publishToTestFlight
   tags:
     - ios
