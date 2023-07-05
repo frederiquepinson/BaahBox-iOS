@@ -17,7 +17,7 @@ build_project:
     - dev
     - web
   script:
-    - echo "build for TestFlight" #bundle exec fastlane buildForTestFlight
+    - bundle exec fastlane buildForTestFlight
   tags:
     - ios
     - m1
@@ -37,5 +37,5 @@ test_flight:
   tags:
     - ios
     - m1
-  only:
-    - web
+  #only:
+  #  - web
