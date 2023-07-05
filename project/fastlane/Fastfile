@@ -27,7 +27,7 @@ XCODE_PROJ = "OrangeTrainingBox.xcodeproj"
 XCODE_SCHEME = "Baah_FR"
 IPA_NAME = "OrangeTrainingBox.ipa"
 
-BUILD_NUMBER = ""
+buildNumber = nil
 
 platform :ios do
   
@@ -72,7 +72,7 @@ platform :ios do
     )
 
     appVersion = getAppVersion()
-    news = "Nouvelle version available : #{appVersion}.#{BUILD_NUMBER}" 
+    news = "Nouvelle version available : #{appVersion}.#{buildNumber}" 
 
     upload_to_testflight(
       changelog: news,
@@ -105,8 +105,8 @@ end
 # ------------------------------------------------------------
 desc "Update build number with timestamp"
 def incrementBuildNumber
-    BUILD_NUMBER = getBuildNumber()
-    increment_build_number(xcodeproj: "#{XCODE_PROJ}", build_number: "#{BUILD_NUMBER}")
+    buildNumber = getBuildNumber()
+    increment_build_number(xcodeproj: "#{XCODE_PROJ}", build_number: "#{buildNumber}")
 end
 
 # ------------------------------------------------------------
