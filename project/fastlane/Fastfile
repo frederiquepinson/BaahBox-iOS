@@ -115,7 +115,8 @@ end
 def getAppVersion
     version = get_version_number(
         xcodeproj: "#{XCODE_PROJ}",
-        target: "#{XCODE_SCHEME}"
+        target: "#{XCODE_SCHEME}",
+        configuration: "Release"
     )
     return version
 end
