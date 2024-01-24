@@ -25,6 +25,7 @@ APPLE_KEY_CONTENT = ENV["APPLE_KEY_CONTENT"]
 XCODE_XCWORKSPACE = "OrangeTrainingBox.xcworkspace"
 XCODE_PROJ = "OrangeTrainingBox.xcodeproj"
 XCODE_SCHEME = "Baah_FR"
+XCODE_TARGET = "OrangeTrainingBox"
 IPA_NAME = "OrangeTrainingBox.ipa"
 
 buildNumber = nil
@@ -82,7 +83,7 @@ platform :ios do
       skip_waiting_for_build_processing: false,
       distribute_external: true,
       notify_external_testers: true,
-      groups: "internal",
+      groups: ["HumanLab", "testers"],
       ipa: "./#{IPA_NAME}"
     )
 
@@ -115,7 +116,7 @@ end
 def getAppVersion
     version = get_version_number(
         xcodeproj: "#{XCODE_PROJ}",
-        target: "#{XCODE_SCHEME}",
+        target: "#{XCODE_TARGET}",
         configuration: "Release"
     )
     return version

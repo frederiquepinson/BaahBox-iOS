@@ -13,11 +13,17 @@ before_script:
 
 build_project:
   stage: build
+  artifacts:
+    paths:
+      - ./project/*.ipa
+    expire_in: 1 week
   only:
     - dev
     - web
   script:
+    - pwd
     - bundle exec fastlane buildForTestFlight
+    - ls -l *.ipa
   tags:
     - ios
     - m1
@@ -26,10 +32,6 @@ test_flight:
   dependencies:
     - build_project
   stage: publish
-  artifacts:
-    paths:
-      - ./*.ipa
-    expire_in: 1 week
   script:
     - pwd
     - ls -ltra
@@ -37,5 +39,5 @@ test_flight:
   tags:
     - ios
     - m1
-  #only:
-  #  - web
+  only:
+    - web
