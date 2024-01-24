@@ -1,18 +1,13 @@
 source 'https://cdn.cocoapods.org/'
 
-
-
 platform :ios, '11.0'
 inhibit_all_warnings!
 use_frameworks!
 
-
 def common_pods
-    pod 'SwiftGen'
-
+  pod 'SwiftGen'
 end
 
-
 target 'OrangeTrainingBox' do
-    common_pods
-  end
+  common_pods
+end
