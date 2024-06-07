@@ -43,7 +43,8 @@ import Foundation
 }
 
 /// A Element is a block displayed in main section
-@objc public final class ESSAboutElement : NSObject {
+@objcMembers
+public final class ESSAboutElement : NSObject {
     
     /// Type of a element
     public var type : ESSAboutElementType

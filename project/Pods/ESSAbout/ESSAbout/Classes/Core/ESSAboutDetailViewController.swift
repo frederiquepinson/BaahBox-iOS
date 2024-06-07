@@ -111,14 +111,14 @@ class ESSAboutDetailViewController: UIViewController, WKUIDelegate, WKNavigation
     func preferredContentSizeChanged() {
         let navbarFont =  UIFont.boldSystemFont(ofSize: UIFont.fontSizeWithPreferredContentSizeBasedOnNormal(forSize: 17.0))
         let nav = self.navigationController?.navigationBar
-        nav?.titleTextAttributes = [NSAttributedString.Key.font: navbarFont, NSAttributedString.Key.foregroundColor: ESSAboutManager.sharedInstance.titleColor as Any]
+        nav?.titleTextAttributes = [NSAttributedString.Key.font: navbarFont, NSAttributedString.Key.foregroundColor: ESSAboutManager.sharedInstance.navigationBarTitleColor as Any]
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         let navbarFont =  UIFont.boldSystemFont(ofSize: 17)
         let nav = self.navigationController?.navigationBar
-        nav?.titleTextAttributes = [NSAttributedString.Key.font: navbarFont, NSAttributedString.Key.foregroundColor: ESSAboutManager.sharedInstance.titleColor as Any]
+        nav?.titleTextAttributes = [NSAttributedString.Key.font: navbarFont, NSAttributedString.Key.foregroundColor: ESSAboutManager.sharedInstance.navigationBarTitleColor as Any]
     }
     
     
