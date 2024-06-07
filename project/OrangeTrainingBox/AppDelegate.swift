@@ -46,7 +46,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             configESSAbout.version  = "\(appVersion).\(buildVersion)"
         }
         var elements = [ESSAboutElement]()
-        elements.append(ESSAboutElement(type: .html, titleKey: "ESSAbout.rubricTitle.AppNewFeaturesTitle", contentKey: "news_app.html", linkInBrowser: false))
         elements.append(ESSAboutElement(type: .html, titleKey: "ESSAbout.rubricTitle.AppLegalInformationsTitle", contentKey: "legal_notices.html", linkInBrowser: false))
         elements.append(ESSAboutElement(type: .html, titleKey: "ESSAbout.rubricTitle.AppTermOfUseTitle", contentKey: "cgu.html", linkInBrowser: false))
         elements.append(ESSAboutElement(type: .html, titleKey: "ESSAbout.rubricTitle.AppPrivacypolicyTitle", contentKey: "privacy.html", linkInBrowser: false))
