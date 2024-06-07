@@ -158,7 +158,7 @@ class BTConnectionViewController: UIViewController, UITableViewDelegate, UITable
         
         actInd.startAnimating()
         
-        let button = UIBarButtonItem (customView: customView)
+        let button = UIBarButtonItem(customView: customView)
         button.isEnabled = false
         
         return button
@@ -225,7 +225,7 @@ class BTConnectionViewController: UIViewController, UITableViewDelegate, UITable
                 return item.value
             }
             let connectedPeripheralName = btManager.peripheralNames[btManager.currentPeripheral]
-            cell.configure (activeButton: activeCells.first?.key == connectedPeripheralName)
+            cell.configure(activeButton: activeCells.first?.key == connectedPeripheralName)
         } else {
             cell.isHidden = true
         }
@@ -239,7 +239,7 @@ class BTConnectionViewController: UIViewController, UITableViewDelegate, UITable
             return UITableViewCell()
         }
         
-        let index = getPeripheralIndex (at: indexPath)
+        let index = getPeripheralIndex(at: indexPath)
         let peripheralName = getPeripheralName(at: index)
         cell.configure(with: peripheralName, shouldShowTick: selectedCells[peripheralName] ?? false)
         return cell

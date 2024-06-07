@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,8 +33,13 @@
 		46AFC7DE217DD4230052C063 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AFC7CA217DD4220052C063 /* Helper.swift */; };
 		46AFC7E3217DD43C0052C063 /* Games.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46AFC7E0217DD43C0052C063 /* Games.storyboard */; };
 		46B38EF32500EC2700B75C88 /* SpriteKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B38EF22500EC2700B75C88 /* SpriteKitHelper.swift */; };
+		46B80FF22C1339D000B48CB8 /* cgu.html in Resources */ = {isa = PBXBuildFile; fileRef = 46B80FEA2C1339D000B48CB8 /* cgu.html */; };
+		46B80FF32C1339D000B48CB8 /* news_app.html in Resources */ = {isa = PBXBuildFile; fileRef = 46B80FEC2C1339D000B48CB8 /* news_app.html */; };
+		46B80FF42C1339D000B48CB8 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 46B80FEE2C1339D000B48CB8 /* privacy.html */; };
+		46B80FF52C1339D000B48CB8 /* legal_notices.html in Resources */ = {isa = PBXBuildFile; fileRef = 46B80FF02C1339D000B48CB8 /* legal_notices.html */; };
 		46D5E73221CCAB3600E85B9B /* UIButtonBordered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5E73121CCAB3600E85B9B /* UIButtonBordered.swift */; };
 		46D5E73421CCADBD00E85B9B /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5E73321CCADBD00E85B9B /* GameState.swift */; };
+		46E35103286B322500AE6758 /* SNCRASH1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46E35102286B322500AE6758 /* SNCRASH1.wav */; };
 		46E5A95724FFA25D00F6EECD /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A95624FFA25D00F6EECD /* GameVC.swift */; };
 		46E5A95924FFA2FB00F6EECD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A95824FFA2FB00F6EECD /* GameScene.swift */; };
 		46EBAB242215CC3600AA542D /* SensorInputManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EBAB232215CC3600AA542D /* SensorInputManager.swift */; };
@@ -64,6 +69,7 @@
 		EBEFCAAC217F05E5006E20F6 /* BLEService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFCAA3217F05E5006E20F6 /* BLEService.swift */; };
 		EBEFCAAE217F05E5006E20F6 /* BTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFCAA6217F05E5006E20F6 /* BTCell.swift */; };
 		EBEFCAAF217F05E5006E20F6 /* BTHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFCAA7217F05E5006E20F6 /* BTHeaderCell.swift */; };
+		FDF5B5F62A4B363000862840 /* .gitlab-ci.yml in Resources */ = {isa = PBXBuildFile; fileRef = FDF5B5F52A4B363000862840 /* .gitlab-ci.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +91,10 @@
 
 /* Begin PBXFileReference section */
 		07CB4CC121F1E21C0098D1AF /* MuscleReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleReader.swift; sourceTree = "<group>"; };
+		46325FDF29CB04480052A242 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		46325FE029CB04480052A242 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		46325FE129CB04480052A242 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		46325FE229CB04480052A242 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 		465F8EC02201BECE00F99669 /* ExplosionParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExplosionParticle.sks; sourceTree = "<group>"; };
 		465F8EC2220208E900F99669 /* Star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Star.jpg; sourceTree = "<group>"; };
 		466FB24E21A2EFC700F19C65 /* UINavigationController+navbarTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+navbarTint.swift"; sourceTree = "<group>"; };
@@ -118,8 +128,17 @@
 		46AFC7CA217DD4220052C063 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		46AFC7E0217DD43C0052C063 /* Games.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Games.storyboard; sourceTree = "<group>"; };
 		46B38EF22500EC2700B75C88 /* SpriteKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitHelper.swift; sourceTree = "<group>"; };
+		46B80FEB2C1339D000B48CB8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fr; path = fr.lproj/cgu.html; sourceTree = "<group>"; };
+		46B80FED2C1339D000B48CB8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fr; path = fr.lproj/news_app.html; sourceTree = "<group>"; };
+		46B80FEF2C1339D000B48CB8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fr; path = fr.lproj/privacy.html; sourceTree = "<group>"; };
+		46B80FF12C1339D000B48CB8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fr; path = fr.lproj/legal_notices.html; sourceTree = "<group>"; };
+		46B80FF62C1339DC00B48CB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/cgu.html; sourceTree = "<group>"; };
+		46B80FF72C1339E100B48CB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/legal_notices.html; sourceTree = "<group>"; };
+		46B80FF82C1339E700B48CB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/news_app.html; sourceTree = "<group>"; };
+		46B80FF92C1339EC00B48CB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/privacy.html; sourceTree = "<group>"; };
 		46D5E73121CCAB3600E85B9B /* UIButtonBordered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBordered.swift; sourceTree = "<group>"; };
 		46D5E73321CCADBD00E85B9B /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		46E35102286B322500AE6758 /* SNCRASH1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SNCRASH1.wav; sourceTree = "<group>"; };
 		46E5A95624FFA25D00F6EECD /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		46E5A95824FFA2FB00F6EECD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		46EBAB232215CC3600AA542D /* SensorInputManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorInputManager.swift; sourceTree = "<group>"; };
@@ -152,6 +171,7 @@
 		EBEFCAA6217F05E5006E20F6 /* BTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCell.swift; sourceTree = "<group>"; };
 		EBEFCAA7217F05E5006E20F6 /* BTHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTHeaderCell.swift; sourceTree = "<group>"; };
 		F68A8DF551A801AE28FE10EA /* Pods_OrangeTrainingBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrangeTrainingBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF5B5F52A4B363000862840 /* .gitlab-ci.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = ".gitlab-ci.yml"; path = "../.gitlab-ci.yml"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +225,17 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
+		46325FDE29CB04480052A242 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				46325FDF29CB04480052A242 /* Appfile */,
+				46325FE029CB04480052A242 /* Fastfile */,
+				46325FE129CB04480052A242 /* README.md */,
+				46325FE229CB04480052A242 /* report.xml */,
+			);
+			path = fastlane;
+			sourceTree = "<group>";
+		};
 		468CFC36217E17FE00E0553E /* CodeGen */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +257,11 @@
 		468CFC3E217E180D00E0553E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				46B80FEA2C1339D000B48CB8 /* cgu.html */,
+				46B80FF02C1339D000B48CB8 /* legal_notices.html */,
+				46B80FEC2C1339D000B48CB8 /* news_app.html */,
+				46B80FEE2C1339D000B48CB8 /* privacy.html */,
+				46E35102286B322500AE6758 /* SNCRASH1.wav */,
 				465F8EC2220208E900F99669 /* Star.jpg */,
 				467ED80F217E1A7F006FB1DB /* LaunchScreen.storyboard */,
 				467ED80E217E1A7F006FB1DB /* Main.storyboard */,
@@ -243,6 +279,8 @@
 		46AFC776217DCCF10052C063 = {
 			isa = PBXGroup;
 			children = (
+				FDF5B5F42A4B35E600862840 /* gitlab-ci */,
+				46325FDE29CB04480052A242 /* fastlane */,
 				46AFC781217DCCF10052C063 /* OrangeTrainingBox */,
 				46AFC796217DCCF20052C063 /* OrangeTrainingBoxTests */,
 				46AFC7A1217DCCF20052C063 /* OrangeTrainingBoxUITests */,
@@ -396,6 +434,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		FDF5B5F42A4B35E600862840 /* gitlab-ci */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5B5F52A4B363000862840 /* .gitlab-ci.yml */,
+			);
+			name = "gitlab-ci";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -408,7 +454,7 @@
 				46AFC77B217DCCF10052C063 /* Sources */,
 				46AFC77C217DCCF10052C063 /* Frameworks */,
 				46AFC77D217DCCF10052C063 /* Resources */,
-				5192C01022FC3CDA000024E2 /* Check sources with SwftLint */,
+				D51A076BC0C9587652774BEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -504,15 +550,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B80FF52C1339D000B48CB8 /* legal_notices.html in Resources */,
 				468CFC32217E170B00E0553E /* Localizable.strings in Resources */,
 				465F8EC12201BECE00F99669 /* ExplosionParticle.sks in Resources */,
+				46B80FF22C1339D000B48CB8 /* cgu.html in Resources */,
 				465F8EC3220208E900F99669 /* Star.jpg in Resources */,
 				EB38BBC721D9104E0012E3AB /* InfoPlist.strings in Resources */,
 				467ED810217E1A7F006FB1DB /* Main.storyboard in Resources */,
 				46AFC78A217DCCF20052C063 /* Assets.xcassets in Resources */,
 				EB7A290421CAB073000DBA43 /* Settings.storyboard in Resources */,
+				46E35103286B322500AE6758 /* SNCRASH1.wav in Resources */,
+				46B80FF32C1339D000B48CB8 /* news_app.html in Resources */,
 				467ED811217E1A7F006FB1DB /* LaunchScreen.storyboard in Resources */,
+				46B80FF42C1339D000B48CB8 /* privacy.html in Resources */,
 				46AFC7E3217DD43C0052C063 /* Games.storyboard in Resources */,
+				FDF5B5F62A4B363000862840 /* .gitlab-ci.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,24 +599,6 @@
 			shellPath = /bin/sh;
 			shellScript = "./swiftgen.sh\n\n";
 		};
-		5192C01022FC3CDA000024E2 /* Check sources with SwftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Check sources with SwftLint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"WARNING: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
 		93CEBFB7BA3F7B32226DDBF6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -581,6 +615,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D51A076BC0C9587652774BEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrangeTrainingBox/Pods-OrangeTrainingBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrangeTrainingBox/Pods-OrangeTrainingBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrangeTrainingBox/Pods-OrangeTrainingBox-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -677,6 +728,42 @@
 				468CFC35217E170C00E0553E /* fr */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		46B80FEA2C1339D000B48CB8 /* cgu.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B80FEB2C1339D000B48CB8 /* fr */,
+				46B80FF62C1339DC00B48CB8 /* en */,
+			);
+			name = cgu.html;
+			sourceTree = "<group>";
+		};
+		46B80FEC2C1339D000B48CB8 /* news_app.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B80FED2C1339D000B48CB8 /* fr */,
+				46B80FF82C1339E700B48CB8 /* en */,
+			);
+			name = news_app.html;
+			sourceTree = "<group>";
+		};
+		46B80FEE2C1339D000B48CB8 /* privacy.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B80FEF2C1339D000B48CB8 /* fr */,
+				46B80FF92C1339EC00B48CB8 /* en */,
+			);
+			name = privacy.html;
+			sourceTree = "<group>";
+		};
+		46B80FF02C1339D000B48CB8 /* legal_notices.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B80FF12C1339D000B48CB8 /* fr */,
+				46B80FF72C1339E100B48CB8 /* en */,
+			);
+			name = legal_notices.html;
 			sourceTree = "<group>";
 		};
 		EB38BBC521D9104E0012E3AB /* InfoPlist.strings */ = {
@@ -815,8 +902,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4EA3608B567524A4FAA6D3CC /* Pods-OrangeTrainingBox.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = MG2LSJNJB6;
 				INFOPLIST_FILE = OrangeTrainingBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -824,8 +912,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBox;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.cocoa.OrangeTrainingBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -837,15 +930,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MG2LSJNJB6;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = B9YP84K776;
 				INFOPLIST_FILE = OrangeTrainingBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBox;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.baahbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -857,6 +956,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MG2LSJNJB6;
 				INFOPLIST_FILE = OrangeTrainingBoxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -866,6 +966,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBoxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeTrainingBox.app/OrangeTrainingBox";
@@ -878,6 +982,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MG2LSJNJB6;
 				INFOPLIST_FILE = OrangeTrainingBoxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -887,6 +992,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBoxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeTrainingBox.app/OrangeTrainingBox";
@@ -907,6 +1016,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBoxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = OrangeTrainingBox;
@@ -927,6 +1040,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeTrainingBoxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = OrangeTrainingBox;
