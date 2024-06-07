@@ -1,28 +1,5 @@
 # ESSAbout
 
-## Old version
-
-##### ESSAppInfo with legacy style  
-
-Available in branch "master_legacy" only write in objective-c  
-[https://gitlab.forge.orange-labs.fr/Essentials/ESSApplicationInformation_iOS/tree/master_legacy](https://gitlab.forge.orange-labs.fr/Essentials/ESSApplicationInformation_iOS/tree/master_legacy)
-
-Read the readme.md file for more instruction
-
-Or  
-  
-##### ESSAppInfo with new brand style   
-
-Available in branch "master_newbrand" only write in objective-c  
-[https://gitlab.forge.orange-labs.fr/Essentials/ESSApplicationInformation_iOS/tree/master_newbrand](https://gitlab.forge.orange-labs.fr/Essentials/ESSApplicationInformation_iOS/tree/master_newbrand)
-
-Read the readme.md file for more instruction
-
-## Download demo ipa on OMD Page
-[http://omd.com.fr.intraorange/platform/ios/modules/application-information](http://omd.com.fr.intraorange/platform/ios/modules/application-information)
-
-You can install the last version here [ESSAbout](itms-services://?action=download-manifest&url=https://essentials.kermit.orange-labs.fr/IOS/ESSAbout.plist)
-
 ## Introduction
 
 The About Essential component can be used to present Legal Information, privacy policy, terms of use or any other information about an application.
@@ -216,6 +193,9 @@ Version 2.2.3 : fix margin left/right on ios11
 Version 2.3.0 : Swift 4 and Xcode 9 migration, iPhone X compatibility  
 Version 2.4.0 : min version is iOS 9.0, Swift 4.1 and Xcode 9.4 migration, minor ui bug fix, cartharge suport  
 Version 2.5.0 : Xcode 10.2 & Swift 5
+Version 2.6.0: Xcode 11.2.1 & iOS13 support with Darkmode
+Version 2.6.1: fix title color before iOS13
+Version 2.7.0 : Xcode 12 & iOS14 support.
 
 ## Contact
 GALHAUT Julien, julien1.galhaut@orange.com  

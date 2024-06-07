@@ -86,7 +86,7 @@ class ESSAboutViewController: UIViewController, UITableViewDataSource, UITableVi
         currentOffsetContentSize = UIFont.fontSizeOffset * 3
         let navbarFont =  UIFont.boldSystemFont(ofSize: UIFont.fontSizeWithPreferredContentSizeBasedOnNormal(forSize: 17.0))
         let nav = self.navigationController?.navigationBar
-        nav?.titleTextAttributes = [NSAttributedString.Key.font: navbarFont, NSAttributedString.Key.foregroundColor: ESSAboutManager.sharedInstance.titleColor as Any]
+        nav?.titleTextAttributes = [NSAttributedString.Key.font: navbarFont, NSAttributedString.Key.foregroundColor: ESSAboutManager.sharedInstance.navigationBarTitleColor as Any]
         
         tableView.beginUpdates()
         tableView.endUpdates()
@@ -105,7 +105,7 @@ class ESSAboutViewController: UIViewController, UITableViewDataSource, UITableVi
         }
         let navbarFont =  UIFont.boldSystemFont(ofSize: UIFont.fontSizeWithPreferredContentSizeBasedOnNormal(forSize: 17.0))
         let nav = self.navigationController?.navigationBar
-        nav?.titleTextAttributes = [NSAttributedString.Key.font: navbarFont, NSAttributedString.Key.foregroundColor: ESSAboutManager.sharedInstance.titleColor as Any]
+        nav?.titleTextAttributes = [NSAttributedString.Key.font: navbarFont, NSAttributedString.Key.foregroundColor: ESSAboutManager.sharedInstance.navigationBarTitleColor as Any]
         
         if let indexPath = self.tableView.indexPathForSelectedRow {
             if(currentSelected != indexPath.row){
@@ -263,6 +263,10 @@ class ESSAboutViewController: UIViewController, UITableViewDataSource, UITableVi
             cell.appNameLabel.font = ESSAboutManager.sharedInstance.mainFont3
             cell.appVersionLabel.font = ESSAboutManager.sharedInstance.mainFont2
             cell.appCopyrightLabel.font = ESSAboutManager.sharedInstance.mainFont2
+            
+            cell.appNameLabel.textColor = ESSAboutManager.sharedInstance.titleColor
+            cell.appVersionLabel.textColor = ESSAboutManager.sharedInstance.titleColor
+            cell.appCopyrightLabel.textColor = ESSAboutManager.sharedInstance.titleColor
             
             if let headerImage = ESSAboutManager.sharedInstance.config?.headerImage {
                 cell.headerImageView.image = headerImage

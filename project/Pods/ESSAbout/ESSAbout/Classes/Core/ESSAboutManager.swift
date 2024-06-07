@@ -18,7 +18,7 @@
  * the Orange Source Charter ( http://opensource.itn.ftgroup/index.php/Orange_Source ).
  *
  */
-
+@objcMembers
 open class ESSAboutConfig : NSObject {
     
     /// Name of the app, (Default : Bundle Display Name of host app)
@@ -41,10 +41,12 @@ open class ESSAboutConfig : NSObject {
     open var contentModeHeader : UIView.ContentMode = .bottomLeft
     
     /// (Optional) background UIColor of the view (default white)
-    open var backgroundColor : UIColor = .white
+    open var backgroundColor : UIColor = .essBackgroundDefault
     
-    open var titleColor : UIColor = .white
+    open var titleColor : UIColor = .essTitleDefault
     
+    open var navigationBarTitleColor : UIColor = .essTitleDefault
+
     open var mainFont1 : UIFont?
     open var mainFont2 : UIFont?
     open var mainFont3 : UIFont?
@@ -68,16 +70,17 @@ open class ESSAboutConfig : NSObject {
     var copyright: String?
     var ipadCloseButtonText : String?
     var mainTitleText : String?
-    var titleColor : UIColor! = .white
+    var titleColor : UIColor! = .essTitleDefault
+    var navigationBarTitleColor : UIColor! = .essTitleDefault
     var config : ESSAboutConfig?
     
     var mainElements  = [ESSAboutElement]()
-    var backgroundColor: UIColor?
+    var backgroundColor: UIColor? = .essBackgroundDefault
     var mainFont1: UIFont?
     var mainFont2: UIFont?
     var mainFont3: UIFont?
     
-    public static let sharedInstance = ESSAboutManager()
+    @objc public static let sharedInstance = ESSAboutManager()
     
     fileprivate var delegate: ESSAboutCustomDelegate?
     fileprivate var statDelegate: ESSAboutStatDelegate?
@@ -86,7 +89,7 @@ open class ESSAboutConfig : NSObject {
     
      - parameter configuration: An ESSAboutConfig containing ESSAbout configuration
      */
-    public static func with(_ configuration : ESSAboutConfig) {
+    @objc public static func with(_ configuration : ESSAboutConfig) {
         sharedInstance.config = configuration
         sharedInstance.initialize()
     }
@@ -109,7 +112,15 @@ open class ESSAboutConfig : NSObject {
         if let titleColor = self.config?.titleColor {
             self.titleColor = titleColor
         }
-        
+
+        if let navigationBarTitleColor = self.config?.navigationBarTitleColor {
+            self.navigationBarTitleColor = navigationBarTitleColor
+        } else {
+            if let titleColor = self.config?.titleColor {
+                self.navigationBarTitleColor = titleColor
+            }
+        }
+
         if let title = self.config?.mainTitleText {
             self.mainTitleText = title
         } else {
@@ -172,7 +183,7 @@ open class ESSAboutConfig : NSObject {
     }
     
     
-    public var essDelegate: ESSAboutCustomDelegate? {
+    @objc public var essDelegate: ESSAboutCustomDelegate? {
         get {
             return delegate
         }
@@ -182,7 +193,7 @@ open class ESSAboutConfig : NSObject {
     }
     
     
-    public var essStatDelegate: ESSAboutStatDelegate? {
+    @objc public var essStatDelegate: ESSAboutStatDelegate? {
         get {
             return statDelegate
         }
@@ -190,9 +201,9 @@ open class ESSAboutConfig : NSObject {
             statDelegate = newStatDelegate
         }
     }
-    public static var essBundleForIcon: Bundle = Bundle.main
+    @objc public static var essBundleForIcon: Bundle = Bundle.main
 
-    public static var bundle:Bundle {
+    @objc public static var bundle:Bundle {
         let podBundle = Bundle(for: ESSAboutManager.self)
         guard let bundleURL = podBundle.url(forResource: "ESSAbout", withExtension: "bundle") else {
             return podBundle
@@ -200,22 +211,41 @@ open class ESSAboutConfig : NSObject {
         return Bundle(url: bundleURL)!
     }
     
-    public static func instantiateESSAboutSplitViewController() -> UIViewController {
+    @objc public static func instantiateESSAboutSplitViewController() -> UIViewController {
         let storyboard = UIStoryboard(name: "ESSAbout", bundle: bundle)
         return storyboard.instantiateViewController(withIdentifier: "ESSAboutSplitViewController")
     }
     
-    public static func instantiateESSAboutViewController() -> UIViewController {
+    @objc public static func instantiateESSAboutViewController() -> UIViewController {
         let storyboard = UIStoryboard(name: "ESSAbout", bundle: bundle)
         return storyboard.instantiateViewController(withIdentifier: "ESSAboutNavigationViewController")
     }
     
-    public static func performESSAboutDetailViewController(_ caller: UIViewController, url: String) {
+    @objc public static func performESSAboutDetailViewController(_ caller: UIViewController, url: String) {
         let EssAboutRootViewControllerID = "ESSAboutDetailViewController"
         let storyboard = UIStoryboard(name: "ESSAbout", bundle: bundle)
         
         let viewController = storyboard.instantiateViewController(withIdentifier: EssAboutRootViewControllerID) as! ESSAboutDetailViewController
         viewController.urlString = url
         caller.navigationController?.pushViewController(viewController, animated: true)
+    }
+}
+
+
+extension UIColor {
+    public static var essTitleDefault : UIColor {
+        if #available(iOS 13.0, *) {
+            return .label
+        } else {
+            return .black
+        }
+    }
+    
+    public static var essBackgroundDefault : UIColor {
+        if #available(iOS 13.0, *) {
+            return .systemBackground
+        } else {
+            return .white
+        }
     }
 }
