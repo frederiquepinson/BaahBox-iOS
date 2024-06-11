@@ -2,7 +2,7 @@
     //  AppDelegate.swift
     //  Baah Box
     //
-    //  Copyright (C) 2017 – 2020 Orange SA
+    //  Copyright (C) 2017 – 2024 Orange SA
     //
     //  This program is free software: you can redistribute it and/or modify
     //  it under the terms of the GNU General Public License as published by
@@ -19,7 +19,6 @@
     //
 
 import UIKit
-import ESSAbout
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -28,30 +27,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var shouldPresentConnectionPannel = true
     var safeAreaInsets = UIEdgeInsets()
     
-    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        configureESSAbout()
         return true
-    }
-    
-    private func configureESSAbout() {
-            // Essential About component initialization
-        let configESSAbout = ESSAboutConfig()
-        configESSAbout.appName = "Baah"
-        var buildVersion = Bundle.main.infoDictionary?["CFBundleVersion"] as? String
-        var appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
-        
-        if let buildVersion = buildVersion, let appVersion = appVersion {
-            configESSAbout.version  = "\(appVersion).\(buildVersion)"
-        }
-        var elements = [ESSAboutElement]()
-        elements.append(ESSAboutElement(type: .html, titleKey: "ESSAbout.rubricTitle.AppLegalInformationsTitle", contentKey: "legal_notices.html", linkInBrowser: false))
-        elements.append(ESSAboutElement(type: .html, titleKey: "ESSAbout.rubricTitle.AppTermOfUseTitle", contentKey: "cgu.html", linkInBrowser: false))
-        elements.append(ESSAboutElement(type: .html, titleKey: "ESSAbout.rubricTitle.AppPrivacypolicyTitle", contentKey: "privacy.html", linkInBrowser: false))
-        
-        configESSAbout.mainElements = elements
-        ESSAboutManager.with(configESSAbout)
     }
     
     func applicationWillEnterForeground(_ application: UIApplication) {

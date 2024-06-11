@@ -2,7 +2,7 @@
     //  MainParametersTVC.swift
     //  Baah Box
     //
-    //  Copyright (C) 2017 – 2020 Orange SA
+    //  Copyright (C) 2017 – 2024 Orange SA
     //
     //  This program is free software: you can redistribute it and/or modify
     //  it under the terms of the GNU General Public License as published by
@@ -19,7 +19,6 @@
     //
 
 import UIKit
-import ESSAbout
 
 class MainParametersVC: GameVC, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
@@ -238,9 +237,9 @@ class MainParametersVC: GameVC, UITableViewDelegate, UITableViewDataSource {
                 }
                 
             case SectionDescription.about.rawValue:
-                let EssAboutRootViewControllerID = "ESSAboutNavigationViewController"
-                let storyboard = UIStoryboard(name: "ESSAbout", bundle: ESSAboutManager.bundle)
-                let viewController = storyboard.instantiateViewController(withIdentifier: EssAboutRootViewControllerID)
+                let aboutViewControllerID = "AboutViewController"
+                let storyboard = UIStoryboard(name: "Settings", bundle: Bundle.main)
+                let viewController = storyboard.instantiateViewController(withIdentifier: aboutViewControllerID)
                 self.navigationController?.pushViewController(viewController, animated: true)
                 
             default:

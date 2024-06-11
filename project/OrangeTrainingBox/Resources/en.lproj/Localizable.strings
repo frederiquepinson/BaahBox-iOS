@@ -2,7 +2,7 @@
  //  Localizable.strings
  //  Baah Box
  //
- //  Copyright (C) 2017 – 2020 Orange SA
+ //  Copyright (C) 2017 – 2024 Orange SA
  //
  //  This program is free software: you can redistribute it and/or modify
  //  it under the terms of the GNU General Public License as published by
@@ -173,5 +173,12 @@
 "Notif.BLE.Down" = "kBLEUPNotification";
 "Notif.BLE.DataReceived" = "kBLEDataReceivedNotification";
 "Notif.Parameter.update" = "kParameterUpdate";
+
+// About
+"Settings.About.title" = "About";
+"Settings.About.TermsOfUse" = "Terms of Use";
+"Settings.About.LegalNotices" = "Legal Notices";
+"Settings.About.Copyright" = "Orange Property. All rights reserved.";
+
 
 
