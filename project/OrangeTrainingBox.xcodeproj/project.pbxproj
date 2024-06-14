@@ -36,6 +36,17 @@
 		46B80FF22C1339D000B48CB8 /* cgu.html in Resources */ = {isa = PBXBuildFile; fileRef = 46B80FEA2C1339D000B48CB8 /* cgu.html */; };
 		46B80FF42C1339D000B48CB8 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 46B80FEE2C1339D000B48CB8 /* privacy.html */; };
 		46B80FF52C1339D000B48CB8 /* legal_notices.html in Resources */ = {isa = PBXBuildFile; fileRef = 46B80FF02C1339D000B48CB8 /* legal_notices.html */; };
+		46B80FFB2C18D8E700B48CB8 /* PrettyUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B80FFA2C18D8E700B48CB8 /* PrettyUITableViewController.swift */; };
+		46B80FFD2C18D96000B48CB8 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B80FFC2C18D96000B48CB8 /* AboutViewController.swift */; };
+		46B80FFF2C18DBE800B48CB8 /* UIViewController+WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B80FFE2C18DBE800B48CB8 /* UIViewController+WebView.swift */; };
+		46B810012C18DE4C00B48CB8 /* GenericCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B810002C18DE4C00B48CB8 /* GenericCells.swift */; };
+		46B810032C18DFD400B48CB8 /* UITableView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B810022C18DFD400B48CB8 /* UITableView+extension.swift */; };
+		46B810052C18E07F00B48CB8 /* GenericWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B810042C18E07F00B48CB8 /* GenericWebViewController.swift */; };
+		46B810072C18ECA900B48CB8 /* GenericInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B810062C18ECA900B48CB8 /* GenericInfoCell.xib */; };
+		46B810092C18ECB200B48CB8 /* GenericHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B810082C18ECB200B48CB8 /* GenericHeaderCell.xib */; };
+		46B8100B2C18ECB900B48CB8 /* GenericSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B8100A2C18ECB900B48CB8 /* GenericSectionCell.xib */; };
+		46B8100E2C19028A00B48CB8 /* baahbox.css in Resources */ = {isa = PBXBuildFile; fileRef = 46B8100C2C19028A00B48CB8 /* baahbox.css */; };
+		46B8100F2C19028A00B48CB8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B8100D2C19028A00B48CB8 /* logo.png */; };
 		46D5E73221CCAB3600E85B9B /* UIButtonBordered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5E73121CCAB3600E85B9B /* UIButtonBordered.swift */; };
 		46D5E73421CCADBD00E85B9B /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5E73321CCADBD00E85B9B /* GameState.swift */; };
 		46E35103286B322500AE6758 /* SNCRASH1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46E35102286B322500AE6758 /* SNCRASH1.wav */; };
@@ -133,6 +144,17 @@
 		46B80FF62C1339DC00B48CB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/cgu.html; sourceTree = "<group>"; };
 		46B80FF72C1339E100B48CB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/legal_notices.html; sourceTree = "<group>"; };
 		46B80FF92C1339EC00B48CB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/privacy.html; sourceTree = "<group>"; };
+		46B80FFA2C18D8E700B48CB8 /* PrettyUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyUITableViewController.swift; sourceTree = "<group>"; };
+		46B80FFC2C18D96000B48CB8 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		46B80FFE2C18DBE800B48CB8 /* UIViewController+WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+WebView.swift"; path = "OrangeTrainingBox/Parameters/UIViewController+WebView.swift"; sourceTree = SOURCE_ROOT; };
+		46B810002C18DE4C00B48CB8 /* GenericCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCells.swift; sourceTree = "<group>"; };
+		46B810022C18DFD400B48CB8 /* UITableView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITableView+extension.swift"; path = "OrangeTrainingBox/Parameters/UITableView+extension.swift"; sourceTree = SOURCE_ROOT; };
+		46B810042C18E07F00B48CB8 /* GenericWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWebViewController.swift; sourceTree = "<group>"; };
+		46B810062C18ECA900B48CB8 /* GenericInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenericInfoCell.xib; sourceTree = "<group>"; };
+		46B810082C18ECB200B48CB8 /* GenericHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenericHeaderCell.xib; sourceTree = "<group>"; };
+		46B8100A2C18ECB900B48CB8 /* GenericSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenericSectionCell.xib; sourceTree = "<group>"; };
+		46B8100C2C19028A00B48CB8 /* baahbox.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = baahbox.css; sourceTree = "<group>"; };
+		46B8100D2C19028A00B48CB8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		46D5E73121CCAB3600E85B9B /* UIButtonBordered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBordered.swift; sourceTree = "<group>"; };
 		46D5E73321CCADBD00E85B9B /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		46E35102286B322500AE6758 /* SNCRASH1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SNCRASH1.wav; sourceTree = "<group>"; };
@@ -254,6 +276,11 @@
 		468CFC3E217E180D00E0553E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				46B8100C2C19028A00B48CB8 /* baahbox.css */,
+				46B8100D2C19028A00B48CB8 /* logo.png */,
+				46B810062C18ECA900B48CB8 /* GenericInfoCell.xib */,
+				46B810082C18ECB200B48CB8 /* GenericHeaderCell.xib */,
+				46B8100A2C18ECB900B48CB8 /* GenericSectionCell.xib */,
 				46B80FEA2C1339D000B48CB8 /* cgu.html */,
 				46B80FF02C1339D000B48CB8 /* legal_notices.html */,
 				46B80FEE2C1339D000B48CB8 /* privacy.html */,
@@ -340,6 +367,10 @@
 				EB0685592181FB1200A07C3E /* ParametersDefaults.swift */,
 				EB7A290521CB9989000DBA43 /* Views */,
 				EB7A28F821CA6A0E000DBA43 /* Cells */,
+				46B80FFA2C18D8E700B48CB8 /* PrettyUITableViewController.swift */,
+				46B80FFC2C18D96000B48CB8 /* AboutViewController.swift */,
+				46B810002C18DE4C00B48CB8 /* GenericCells.swift */,
+				46B810042C18E07F00B48CB8 /* GenericWebViewController.swift */,
 			);
 			path = Parameters;
 			sourceTree = "<group>";
@@ -383,6 +414,8 @@
 				466FB24E21A2EFC700F19C65 /* UINavigationController+navbarTint.swift */,
 				46D5E73321CCADBD00E85B9B /* GameState.swift */,
 				46B38EF22500EC2700B75C88 /* SpriteKitHelper.swift */,
+				46B80FFE2C18DBE800B48CB8 /* UIViewController+WebView.swift */,
+				46B810022C18DFD400B48CB8 /* UITableView+extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -450,7 +483,6 @@
 				46AFC77B217DCCF10052C063 /* Sources */,
 				46AFC77C217DCCF10052C063 /* Frameworks */,
 				46AFC77D217DCCF10052C063 /* Resources */,
-				D51A076BC0C9587652774BEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -547,16 +579,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				46B80FF52C1339D000B48CB8 /* legal_notices.html in Resources */,
+				46B8100E2C19028A00B48CB8 /* baahbox.css in Resources */,
 				468CFC32217E170B00E0553E /* Localizable.strings in Resources */,
 				465F8EC12201BECE00F99669 /* ExplosionParticle.sks in Resources */,
+				46B8100B2C18ECB900B48CB8 /* GenericSectionCell.xib in Resources */,
 				46B80FF22C1339D000B48CB8 /* cgu.html in Resources */,
 				465F8EC3220208E900F99669 /* Star.jpg in Resources */,
 				EB38BBC721D9104E0012E3AB /* InfoPlist.strings in Resources */,
 				467ED810217E1A7F006FB1DB /* Main.storyboard in Resources */,
+				46B810072C18ECA900B48CB8 /* GenericInfoCell.xib in Resources */,
 				46AFC78A217DCCF20052C063 /* Assets.xcassets in Resources */,
 				EB7A290421CAB073000DBA43 /* Settings.storyboard in Resources */,
+				46B8100F2C19028A00B48CB8 /* logo.png in Resources */,
 				46E35103286B322500AE6758 /* SNCRASH1.wav in Resources */,
 				467ED811217E1A7F006FB1DB /* LaunchScreen.storyboard in Resources */,
+				46B810092C18ECB200B48CB8 /* GenericHeaderCell.xib in Resources */,
 				46B80FF42C1339D000B48CB8 /* privacy.html in Resources */,
 				46AFC7E3217DD43C0052C063 /* Games.storyboard in Resources */,
 				FDF5B5F62A4B363000862840 /* .gitlab-ci.yml in Resources */,
@@ -612,23 +649,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D51A076BC0C9587652774BEC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OrangeTrainingBox/Pods-OrangeTrainingBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OrangeTrainingBox/Pods-OrangeTrainingBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrangeTrainingBox/Pods-OrangeTrainingBox-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -643,12 +663,15 @@
 				46AFC7CF217DD4220052C063 /* BalloonGameScene.swift in Sources */,
 				46AFC7D5217DD4220052C063 /* SpaceshipGameVC.swift in Sources */,
 				46AFC7CE217DD4220052C063 /* SheepGameScene.swift in Sources */,
+				46B810012C18DE4C00B48CB8 /* GenericCells.swift in Sources */,
+				46B80FFB2C18D8E700B48CB8 /* PrettyUITableViewController.swift in Sources */,
 				468CFC3D217E17FE00E0553E /* Storyboards.swift in Sources */,
 				EBEFCAAE217F05E5006E20F6 /* BTCell.swift in Sources */,
 				AC95209A217F3C7B00590D31 /* ButtonWithImageAndText.swift in Sources */,
 				466FB24F21A2EFC700F19C65 /* UINavigationController+navbarTint.swift in Sources */,
 				AC938FE3219A315A00F18672 /* CrapaudGameVC.swift in Sources */,
 				46AFC7D2217DD4220052C063 /* SheepGameVC.swift in Sources */,
+				46B810052C18E07F00B48CB8 /* GenericWebViewController.swift in Sources */,
 				EBEFCAAB217F05E5006E20F6 /* BLEDiscovery.swift in Sources */,
 				46B38EF32500EC2700B75C88 /* SpriteKitHelper.swift in Sources */,
 				EB7A290221CA9F73000DBA43 /* GeneralSliderCell.swift in Sources */,
@@ -660,6 +683,7 @@
 				AC938FE5219A320E00F18672 /* CrapaudGameScene.swift in Sources */,
 				46E5A95724FFA25D00F6EECD /* GameVC.swift in Sources */,
 				46AFC7D1217DD4220052C063 /* BalloonGameVC.swift in Sources */,
+				46B80FFD2C18D96000B48CB8 /* AboutViewController.swift in Sources */,
 				46D5E73421CCADBD00E85B9B /* GameState.swift in Sources */,
 				46AFC783217DCCF10052C063 /* AppDelegate.swift in Sources */,
 				EBEFCAAF217F05E5006E20F6 /* BTHeaderCell.swift in Sources */,
@@ -672,10 +696,12 @@
 				46EBAB242215CC3600AA542D /* SensorInputManager.swift in Sources */,
 				EB7A290921CB9E7D000DBA43 /* GeneralSliderPlusCell.swift in Sources */,
 				EBEFCAAC217F05E5006E20F6 /* BLEService.swift in Sources */,
+				46B810032C18DFD400B48CB8 /* UITableView+extension.swift in Sources */,
 				46AFC7D4217DD4220052C063 /* SpaceshipGameScene.swift in Sources */,
 				EB7A290B21CBA6ED000DBA43 /* SpaceShipParameterVC.swift in Sources */,
 				EB7A290021CA9F5C000DBA43 /* GeneralSegmentCell.swift in Sources */,
 				EB7A28FA21CA7BFD000DBA43 /* MainHeaderCell.swift in Sources */,
+				46B80FFF2C18DBE800B48CB8 /* UIViewController+WebView.swift in Sources */,
 				468CFC3B217E17FE00E0553E /* Strings.swift in Sources */,
 				EB83C67B21D3819600CACA48 /* GeneralButtonCell.swift in Sources */,
 				EB7A290721CB9A40000DBA43 /* SheepGameParameterVC.swift in Sources */,

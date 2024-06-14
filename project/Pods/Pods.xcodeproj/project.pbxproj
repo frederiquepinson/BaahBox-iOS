@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -15,62 +15,17 @@
 			dependencies = (
 			);
 			name = SwiftGen;
-			productName = SwiftGen;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		08DD3FE835F441F3A69950655988E3F7 /* Pods-OrangeTrainingBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FD6ACDE53EA294B75AA2448C6C292 /* Pods-OrangeTrainingBox-dummy.m */; };
-		099772F4D476EBF9FE73CD02F7F56956 /* ESSAboutStatDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227EBE56A7751225AD9680A99CDF5948 /* ESSAboutStatDelegate.swift */; };
-		0B20B3D5AC6B6A6373F2F01FF0C5606A /* ESSAbout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EFBD6B0C4C553B94A9C55A0F7DA7BF /* ESSAbout.storyboard */; };
-		0C270D35B0A0BE600D64222C311994FB /* ESSAboutCustomDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD46F0F08034D17674EBC25E9E4BBDEF /* ESSAboutCustomDelegate.swift */; };
-		0D0401E389B72134D15370BB1F2B315C /* ESSAboutWorkdesk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2E811B9306B452BB1E28593F151EAF /* ESSAboutWorkdesk@2x.png */; };
-		23CABC4590AFA2C535480FACA62AF849 /* ESSAboutWebViewControllerForwardButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F17A481289AB2EAD2EAF5268E46F52BF /* ESSAboutWebViewControllerForwardButton.png */; };
-		2A001076DAEEB957C442EAED40CA99E9 /* ESSAbout.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C727C3E40EB4A385F8E001253763AC63 /* ESSAbout.bundle */; };
-		2F774EDE93BD52ED12B13648A0CA8309 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 49D30B4D92DBE2322EEE60BF70165F3C /* fr.lproj */; };
-		39A45187B071408F1B6E97668CC9AD36 /* styles_light.css in Resources */ = {isa = PBXBuildFile; fileRef = 471DFAAA8512EF438C7127ACB14E5C6A /* styles_light.css */; };
-		3DBF41CF8550A21F374740232625C278 /* ESSAboutWebViewControllerForwardButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C236F6153E6E933091D7D79B8F60F0E /* ESSAboutWebViewControllerForwardButton@3x.png */; };
-		4D822B20F690DA5AE8AE655897E2D143 /* ESSAboutWorkdesk.png in Resources */ = {isa = PBXBuildFile; fileRef = D2291E2B1B023BFFB1CFC22D870E54B9 /* ESSAboutWorkdesk.png */; };
-		569B12FC578C9EDD0910D24599D1FDF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		59F0B643A42EE8FAC930AE1C2C87A0EA /* ESSAboutWebViewControllerBackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE0913E7906A71242D612F63E88EADD /* ESSAboutWebViewControllerBackButton@2x.png */; };
-		5B16CF3D283CCFA647DBB4A0D955C32C /* Pods-OrangeTrainingBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 131D80AA0F5E7B2C310EBE87562D1F3B /* Pods-OrangeTrainingBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66C7649FA6A88A57982DF30828ED5D95 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 237A91261B2D9F0BE83B383D62D0E741 /* en.lproj */; };
-		6FF87E4C3E6ACC8544EB1CCAF0DB6443 /* ESSAbout_logo_rgb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3246F2F98D73DA78CB8E1A91F1F1698D /* ESSAbout_logo_rgb.png */; };
-		7AE421B3AFD0BF66730D6D7F3390DD6E /* ESSAboutElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9522693014E49EE3361D5741CDAB01B /* ESSAboutElement.swift */; };
-		85117B75547E1C9BCDDFB1A2AD560483 /* ESSAboutWebViewControllerBackButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F883CE548B0400586583BB6EC47CF5 /* ESSAboutWebViewControllerBackButton@3x.png */; };
-		894D219698E080EC111A62D2857E68C4 /* UIFont+ESSContentSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B93F6D48B676224A17B87AB8D32833 /* UIFont+ESSContentSize.swift */; };
-		8DFBC1FF02A607A077C66611CE73CDDD /* ESSAboutWebViewControllerForwardButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B47C83E20F2C0C06A73DD66079E87D0C /* ESSAboutWebViewControllerForwardButton@2x.png */; };
-		90F1DFD8AC1727714EC69B27079535F1 /* ESSAboutHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D7F4AC01345D093D603EC01483ACD6 /* ESSAboutHeaderCell.swift */; };
-		936C5AAF5C9D73A0252730675C2D6F1D /* ESSAbout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C28F21201A7CDDFBF3CCBB87A48A86 /* ESSAbout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99770697EEEB0C88786387B9A06E2B97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		9D0B5701232652FE6E59B70E1564AAAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		A4D88C0145D592AAAD4DE5E850E2FAFD /* ESSAboutWorkdesk@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3725C57BBA6B19896CFF918F7E1E2EB /* ESSAboutWorkdesk@3x.png */; };
-		A9F5DD036C7D16E9811DE10AF7DCAF79 /* ESSAbout_logo_rgb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D52A5D5DB3D1B66B2B1EDBCCC29B4928 /* ESSAbout_logo_rgb@2x.png */; };
-		AEC7FFA4671C71C337358224134451A8 /* ESSAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914153EC04B9BD1181F4108361DFCB7A /* ESSAboutViewController.swift */; };
-		C144854B883D5F947CADF11F177019A4 /* ESSAboutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FDAA92CF9DCCB7B64959FCCE004A45 /* ESSAboutDetailViewController.swift */; };
-		DE61A25C10AAC4B2B7AFFD37F56B6B18 /* ESSAboutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E4A83CCA50AC0CFE77F0786BE6BEDB /* ESSAboutManager.swift */; };
-		F4CEBD60E4D7AA0A2C1D6EED7A0E0A98 /* ESSAbout_logo_rgb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 886BC439B81EAFF2373ECFB881ED63ED /* ESSAbout_logo_rgb@3x.png */; };
-		F4D30EB64D26DC1858B87870FBD8AD26 /* ESSAboutSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAED2824FC42C078ED40330ABCF6EC8 /* ESSAboutSplitViewController.swift */; };
-		F94683364E4A027DB76422ACBD0AE8C1 /* ESSAbout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 866065F9FFBC6DAA4F50BBA4E8BB788F /* ESSAbout-dummy.m */; };
-		FF60E9405A0673F23D95A45245C924F0 /* ESSAboutWebViewControllerBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 76DAD1ACF9636A4AE2126E4D8346C0FF /* ESSAboutWebViewControllerBackButton.png */; };
+		04B0D0361C24E586793E39B25BC42615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		21F5D9CA8EEC2D10D65EC4ED74BFBECB /* Pods-OrangeTrainingBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C62FBC2FC8B29DC840D848ADB6CE080 /* Pods-OrangeTrainingBox-dummy.m */; };
+		3C34388881CD091881C59D74FF5FD117 /* Pods-OrangeTrainingBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A5DBEB631A674BB9F016F848FAC728 /* Pods-OrangeTrainingBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2EB1BE4DE2FD89E0AC8796A7BB9610A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A1DEE1B19E32A4D3BA892CAD757FD091;
-			remoteInfo = ESSAbout;
-		};
-		461DABD727C2C99D7F3E33DD8820F6C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 890E391497EB8FC22FF32DCE924CF770;
-			remoteInfo = "ESSAbout-ESSAbout";
-		};
-		7703EF93FAF0AEFBF1A4142CE3DFF8CC /* PBXContainerItemProxy */ = {
+		0F927DFBA4D4CA3665FC3A5579BC5095 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -80,317 +35,150 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03B93F6D48B676224A17B87AB8D32833 /* UIFont+ESSContentSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+ESSContentSize.swift"; path = "ESSAbout/Classes/Core/UIFont+ESSContentSize.swift"; sourceTree = "<group>"; };
-		0C236F6153E6E933091D7D79B8F60F0E /* ESSAboutWebViewControllerForwardButton@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ESSAboutWebViewControllerForwardButton@3x.png"; path = "ESSAbout/Assets/ESSAboutWebViewControllerForwardButton@3x.png"; sourceTree = "<group>"; };
-		131D80AA0F5E7B2C310EBE87562D1F3B /* Pods-OrangeTrainingBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrangeTrainingBox-umbrella.h"; sourceTree = "<group>"; };
-		227EBE56A7751225AD9680A99CDF5948 /* ESSAboutStatDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESSAboutStatDelegate.swift; path = ESSAbout/Classes/Core/ESSAboutStatDelegate.swift; sourceTree = "<group>"; };
-		237A91261B2D9F0BE83B383D62D0E741 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = ESSAbout/Assets/en.lproj; sourceTree = "<group>"; };
-		2732F4ADA38D435FC483C57AC03C4DAC /* ESSAbout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESSAbout.debug.xcconfig; sourceTree = "<group>"; };
-		2A2D60C41B29ECE94D8A5BF02576EB5E /* Pods-OrangeTrainingBox-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrangeTrainingBox-frameworks.sh"; sourceTree = "<group>"; };
-		2E2E811B9306B452BB1E28593F151EAF /* ESSAboutWorkdesk@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ESSAboutWorkdesk@2x.png"; path = "ESSAbout/Assets/ESSAboutWorkdesk@2x.png"; sourceTree = "<group>"; };
-		3246F2F98D73DA78CB8E1A91F1F1698D /* ESSAbout_logo_rgb.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ESSAbout_logo_rgb.png; path = ESSAbout/Assets/ESSAbout_logo_rgb.png; sourceTree = "<group>"; };
-		33E4A83CCA50AC0CFE77F0786BE6BEDB /* ESSAboutManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESSAboutManager.swift; path = ESSAbout/Classes/Core/ESSAboutManager.swift; sourceTree = "<group>"; };
-		33F883CE548B0400586583BB6EC47CF5 /* ESSAboutWebViewControllerBackButton@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ESSAboutWebViewControllerBackButton@3x.png"; path = "ESSAbout/Assets/ESSAboutWebViewControllerBackButton@3x.png"; sourceTree = "<group>"; };
-		39CD215915BB698F363344D3370BD3A8 /* Pods-OrangeTrainingBox-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrangeTrainingBox-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3AADC048C30E08877393BB0B227482F8 /* ESSAbout.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ESSAbout.storyboard; path = en.lproj/ESSAbout.storyboard; sourceTree = "<group>"; };
-		406316AD46F60555FDA66CA95E9A40FD /* Pods-OrangeTrainingBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrangeTrainingBox-Info.plist"; sourceTree = "<group>"; };
-		45C28F21201A7CDDFBF3CCBB87A48A86 /* ESSAbout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESSAbout-umbrella.h"; sourceTree = "<group>"; };
-		471DFAAA8512EF438C7127ACB14E5C6A /* styles_light.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = styles_light.css; path = ESSAbout/Assets/styles_light.css; sourceTree = "<group>"; };
-		49D30B4D92DBE2322EEE60BF70165F3C /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = ESSAbout/Assets/fr.lproj; sourceTree = "<group>"; };
-		5F3BE264945C2D6F67A08B084B490010 /* SwiftGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.debug.xcconfig; sourceTree = "<group>"; };
-		61D234981C96F5FE0A8B69BE9C181777 /* SwiftGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.release.xcconfig; sourceTree = "<group>"; };
-		7034CDC7B2E2F35F3391C7E462A12D91 /* ESSAbout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESSAbout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76DAD1ACF9636A4AE2126E4D8346C0FF /* ESSAboutWebViewControllerBackButton.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ESSAboutWebViewControllerBackButton.png; path = ESSAbout/Assets/ESSAboutWebViewControllerBackButton.png; sourceTree = "<group>"; };
-		80FDAA92CF9DCCB7B64959FCCE004A45 /* ESSAboutDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESSAboutDetailViewController.swift; path = ESSAbout/Classes/Core/ESSAboutDetailViewController.swift; sourceTree = "<group>"; };
-		866065F9FFBC6DAA4F50BBA4E8BB788F /* ESSAbout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESSAbout-dummy.m"; sourceTree = "<group>"; };
-		886BC439B81EAFF2373ECFB881ED63ED /* ESSAbout_logo_rgb@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ESSAbout_logo_rgb@3x.png"; path = "ESSAbout/Assets/ESSAbout_logo_rgb@3x.png"; sourceTree = "<group>"; };
-		8AEB3B51ED54A641AB0FF6E8168B0806 /* ResourceBundle-ESSAbout-ESSAbout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ESSAbout-ESSAbout-Info.plist"; sourceTree = "<group>"; };
-		914153EC04B9BD1181F4108361DFCB7A /* ESSAboutViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESSAboutViewController.swift; path = ESSAbout/Classes/Core/ESSAboutViewController.swift; sourceTree = "<group>"; };
-		92DD8DA3DDBA60FDC4FB35FA36D4A4E0 /* Pods-OrangeTrainingBox-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrangeTrainingBox-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5A8C99C40DD39C4E988BD46932E64FA /* ESSAbout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESSAbout-prefix.pch"; sourceTree = "<group>"; };
-		A9522693014E49EE3361D5741CDAB01B /* ESSAboutElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESSAboutElement.swift; path = ESSAbout/Classes/Core/ESSAboutElement.swift; sourceTree = "<group>"; };
-		AF82173BFF0729A64A8D2FC745EF8F4C /* ESSAbout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ESSAbout.modulemap; sourceTree = "<group>"; };
-		B0D7F4AC01345D093D603EC01483ACD6 /* ESSAboutHeaderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESSAboutHeaderCell.swift; path = ESSAbout/Classes/Core/ESSAboutHeaderCell.swift; sourceTree = "<group>"; };
-		B3725C57BBA6B19896CFF918F7E1E2EB /* ESSAboutWorkdesk@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ESSAboutWorkdesk@3x.png"; path = "ESSAbout/Assets/ESSAboutWorkdesk@3x.png"; sourceTree = "<group>"; };
-		B39EEAB34CBEDA6B80110D3C770235F7 /* ESSAbout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ESSAbout-Info.plist"; sourceTree = "<group>"; };
-		B47C83E20F2C0C06A73DD66079E87D0C /* ESSAboutWebViewControllerForwardButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ESSAboutWebViewControllerForwardButton@2x.png"; path = "ESSAbout/Assets/ESSAboutWebViewControllerForwardButton@2x.png"; sourceTree = "<group>"; };
-		B86FD6ACDE53EA294B75AA2448C6C292 /* Pods-OrangeTrainingBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrangeTrainingBox-dummy.m"; sourceTree = "<group>"; };
-		BE5713BA3F52D8191BF79965E28707F9 /* ESSAbout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESSAbout.release.xcconfig; sourceTree = "<group>"; };
-		BFAB297FD9C7E19033453120669B9DF7 /* Pods-OrangeTrainingBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrangeTrainingBox.release.xcconfig"; sourceTree = "<group>"; };
-		C727C3E40EB4A385F8E001253763AC63 /* ESSAbout.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESSAbout.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAE0913E7906A71242D612F63E88EADD /* ESSAboutWebViewControllerBackButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ESSAboutWebViewControllerBackButton@2x.png"; path = "ESSAbout/Assets/ESSAboutWebViewControllerBackButton@2x.png"; sourceTree = "<group>"; };
-		CD46F0F08034D17674EBC25E9E4BBDEF /* ESSAboutCustomDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESSAboutCustomDelegate.swift; path = ESSAbout/Classes/Core/ESSAboutCustomDelegate.swift; sourceTree = "<group>"; };
-		D2291E2B1B023BFFB1CFC22D870E54B9 /* ESSAboutWorkdesk.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ESSAboutWorkdesk.png; path = ESSAbout/Assets/ESSAboutWorkdesk.png; sourceTree = "<group>"; };
-		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D52A5D5DB3D1B66B2B1EDBCCC29B4928 /* ESSAbout_logo_rgb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ESSAbout_logo_rgb@2x.png"; path = "ESSAbout/Assets/ESSAbout_logo_rgb@2x.png"; sourceTree = "<group>"; };
-		D5C901BAB9815F06D0983A4D79734EE1 /* Pods-OrangeTrainingBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrangeTrainingBox.debug.xcconfig"; sourceTree = "<group>"; };
-		D96C409D5600F67EA6EDBAA027947292 /* Pods-OrangeTrainingBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OrangeTrainingBox.modulemap"; sourceTree = "<group>"; };
-		DFAED2824FC42C078ED40330ABCF6EC8 /* ESSAboutSplitViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESSAboutSplitViewController.swift; path = ESSAbout/Classes/Core/ESSAboutSplitViewController.swift; sourceTree = "<group>"; };
-		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F17A481289AB2EAD2EAF5268E46F52BF /* ESSAboutWebViewControllerForwardButton.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ESSAboutWebViewControllerForwardButton.png; path = ESSAbout/Assets/ESSAboutWebViewControllerForwardButton.png; sourceTree = "<group>"; };
-		F79213A3BBDEFD578691C8D54218E2FE /* Pods_OrangeTrainingBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrangeTrainingBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A5DBEB631A674BB9F016F848FAC728 /* Pods-OrangeTrainingBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrangeTrainingBox-umbrella.h"; sourceTree = "<group>"; };
+		392A1405D5E13F14F4DDB7CFB0B6E8F0 /* Pods-OrangeTrainingBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrangeTrainingBox.release.xcconfig"; sourceTree = "<group>"; };
+		4C62FBC2FC8B29DC840D848ADB6CE080 /* Pods-OrangeTrainingBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrangeTrainingBox-dummy.m"; sourceTree = "<group>"; };
+		6A877487FE0787993068DF0FF3D0A3A9 /* Pods-OrangeTrainingBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OrangeTrainingBox.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8730DC0A26FF6B527095B99E61F73248 /* Pods-OrangeTrainingBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrangeTrainingBox.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F27ED3188A5A569FA94B4D8CB48112B /* Pods-OrangeTrainingBox-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrangeTrainingBox-acknowledgements.plist"; sourceTree = "<group>"; };
+		AAFF169D5718C23D16A08E48D0A127FD /* Pods-OrangeTrainingBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrangeTrainingBox-Info.plist"; sourceTree = "<group>"; };
+		B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.release.xcconfig; sourceTree = "<group>"; };
+		C8C06D67ED51BEA30CFCE8A715038A38 /* Pods-OrangeTrainingBox-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrangeTrainingBox-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F79213A3BBDEFD578691C8D54218E2FE /* Pods-OrangeTrainingBox */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OrangeTrainingBox"; path = Pods_OrangeTrainingBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD691AE7128F940D3B179941FCEC2F54 /* SwiftGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C40E7EAED5A15AD891D38698F3B4477 /* Frameworks */ = {
+		9B9A354D2CFF4F400528FD90C92CC18A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0B5701232652FE6E59B70E1564AAAA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A93E9B3CA74279C02DAA7FDA3CDBA063 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5554480295381FC57BF4E1CF7023AC7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				569B12FC578C9EDD0910D24599D1FDF9 /* Foundation.framework in Frameworks */,
-				99770697EEEB0C88786387B9A06E2B97 /* UIKit.framework in Frameworks */,
+				04B0D0361C24E586793E39B25BC42615 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10596B74CE2AA78A332D4BCC9C7FF276 /* SwiftGen */ = {
+		08DF4A29620F30ECCD85AE71F22FD52C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9585C8F68340795320BB581E51B1216A /* Support Files */,
-			);
-			path = SwiftGen;
-			sourceTree = "<group>";
-		};
-		138034ED19F58527C6B56805BDA5D6A0 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BF86675DA41BA7D971916BB6A64FAB58 /* Pods-OrangeTrainingBox */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3D19FC940D0850F8CF28F4F4B071A953 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EAB3EA6B6F9150CE981BAFB5C09B6FD3 /* ESSAbout */,
-				10596B74CE2AA78A332D4BCC9C7FF276 /* SwiftGen */,
+				878C176E7A3E3DF8BAB24F0858DEDDDD /* SwiftGen */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+		08F156BFF72B6E196795A5E866B0DA68 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
-				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+				780EE247C035E0BDF2B7D7B5FC33F04E /* Pods-OrangeTrainingBox */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2EB4BB7A875FA23ED8C58DD7456F5095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F79213A3BBDEFD578691C8D54218E2FE /* Pods-OrangeTrainingBox */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		875CDFA3D25EBD4992387359F3E95A0B /* Core */ = {
+		780EE247C035E0BDF2B7D7B5FC33F04E /* Pods-OrangeTrainingBox */ = {
 			isa = PBXGroup;
 			children = (
-				CD46F0F08034D17674EBC25E9E4BBDEF /* ESSAboutCustomDelegate.swift */,
-				80FDAA92CF9DCCB7B64959FCCE004A45 /* ESSAboutDetailViewController.swift */,
-				A9522693014E49EE3361D5741CDAB01B /* ESSAboutElement.swift */,
-				B0D7F4AC01345D093D603EC01483ACD6 /* ESSAboutHeaderCell.swift */,
-				33E4A83CCA50AC0CFE77F0786BE6BEDB /* ESSAboutManager.swift */,
-				DFAED2824FC42C078ED40330ABCF6EC8 /* ESSAboutSplitViewController.swift */,
-				227EBE56A7751225AD9680A99CDF5948 /* ESSAboutStatDelegate.swift */,
-				914153EC04B9BD1181F4108361DFCB7A /* ESSAboutViewController.swift */,
-				03B93F6D48B676224A17B87AB8D32833 /* UIFont+ESSContentSize.swift */,
-				AA5832BBCD98A41B6EBF655F35B6AA0C /* Resources */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		9585C8F68340795320BB581E51B1216A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5F3BE264945C2D6F67A08B084B490010 /* SwiftGen.debug.xcconfig */,
-				61D234981C96F5FE0A8B69BE9C181777 /* SwiftGen.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftGen";
-			sourceTree = "<group>";
-		};
-		AA5832BBCD98A41B6EBF655F35B6AA0C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				237A91261B2D9F0BE83B383D62D0E741 /* en.lproj */,
-				25EFBD6B0C4C553B94A9C55A0F7DA7BF /* ESSAbout.storyboard */,
-				3246F2F98D73DA78CB8E1A91F1F1698D /* ESSAbout_logo_rgb.png */,
-				D52A5D5DB3D1B66B2B1EDBCCC29B4928 /* ESSAbout_logo_rgb@2x.png */,
-				886BC439B81EAFF2373ECFB881ED63ED /* ESSAbout_logo_rgb@3x.png */,
-				76DAD1ACF9636A4AE2126E4D8346C0FF /* ESSAboutWebViewControllerBackButton.png */,
-				CAE0913E7906A71242D612F63E88EADD /* ESSAboutWebViewControllerBackButton@2x.png */,
-				33F883CE548B0400586583BB6EC47CF5 /* ESSAboutWebViewControllerBackButton@3x.png */,
-				F17A481289AB2EAD2EAF5268E46F52BF /* ESSAboutWebViewControllerForwardButton.png */,
-				B47C83E20F2C0C06A73DD66079E87D0C /* ESSAboutWebViewControllerForwardButton@2x.png */,
-				0C236F6153E6E933091D7D79B8F60F0E /* ESSAboutWebViewControllerForwardButton@3x.png */,
-				D2291E2B1B023BFFB1CFC22D870E54B9 /* ESSAboutWorkdesk.png */,
-				2E2E811B9306B452BB1E28593F151EAF /* ESSAboutWorkdesk@2x.png */,
-				B3725C57BBA6B19896CFF918F7E1E2EB /* ESSAboutWorkdesk@3x.png */,
-				49D30B4D92DBE2322EEE60BF70165F3C /* fr.lproj */,
-				471DFAAA8512EF438C7127ACB14E5C6A /* styles_light.css */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		BF86675DA41BA7D971916BB6A64FAB58 /* Pods-OrangeTrainingBox */ = {
-			isa = PBXGroup;
-			children = (
-				D96C409D5600F67EA6EDBAA027947292 /* Pods-OrangeTrainingBox.modulemap */,
-				39CD215915BB698F363344D3370BD3A8 /* Pods-OrangeTrainingBox-acknowledgements.markdown */,
-				92DD8DA3DDBA60FDC4FB35FA36D4A4E0 /* Pods-OrangeTrainingBox-acknowledgements.plist */,
-				B86FD6ACDE53EA294B75AA2448C6C292 /* Pods-OrangeTrainingBox-dummy.m */,
-				2A2D60C41B29ECE94D8A5BF02576EB5E /* Pods-OrangeTrainingBox-frameworks.sh */,
-				406316AD46F60555FDA66CA95E9A40FD /* Pods-OrangeTrainingBox-Info.plist */,
-				131D80AA0F5E7B2C310EBE87562D1F3B /* Pods-OrangeTrainingBox-umbrella.h */,
-				D5C901BAB9815F06D0983A4D79734EE1 /* Pods-OrangeTrainingBox.debug.xcconfig */,
-				BFAB297FD9C7E19033453120669B9DF7 /* Pods-OrangeTrainingBox.release.xcconfig */,
+				6A877487FE0787993068DF0FF3D0A3A9 /* Pods-OrangeTrainingBox.modulemap */,
+				C8C06D67ED51BEA30CFCE8A715038A38 /* Pods-OrangeTrainingBox-acknowledgements.markdown */,
+				9F27ED3188A5A569FA94B4D8CB48112B /* Pods-OrangeTrainingBox-acknowledgements.plist */,
+				4C62FBC2FC8B29DC840D848ADB6CE080 /* Pods-OrangeTrainingBox-dummy.m */,
+				AAFF169D5718C23D16A08E48D0A127FD /* Pods-OrangeTrainingBox-Info.plist */,
+				27A5DBEB631A674BB9F016F848FAC728 /* Pods-OrangeTrainingBox-umbrella.h */,
+				8730DC0A26FF6B527095B99E61F73248 /* Pods-OrangeTrainingBox.debug.xcconfig */,
+				392A1405D5E13F14F4DDB7CFB0B6E8F0 /* Pods-OrangeTrainingBox.release.xcconfig */,
 			);
 			name = "Pods-OrangeTrainingBox";
 			path = "Target Support Files/Pods-OrangeTrainingBox";
+			sourceTree = "<group>";
+		};
+		878C176E7A3E3DF8BAB24F0858DEDDDD /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				AB4F699EB2CE4C63CBA1FEFDD0861DAA /* Support Files */,
+			);
+			name = SwiftGen;
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		AB4F699EB2CE4C63CBA1FEFDD0861DAA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD691AE7128F940D3B179941FCEC2F54 /* SwiftGen.debug.xcconfig */,
+				B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGen";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				3D19FC940D0850F8CF28F4F4B071A953 /* Pods */,
-				F530353981091056227425157CE5A626 /* Products */,
-				138034ED19F58527C6B56805BDA5D6A0 /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				08DF4A29620F30ECCD85AE71F22FD52C /* Pods */,
+				2EB4BB7A875FA23ED8C58DD7456F5095 /* Products */,
+				08F156BFF72B6E196795A5E866B0DA68 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		EAB3EA6B6F9150CE981BAFB5C09B6FD3 /* ESSAbout */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				875CDFA3D25EBD4992387359F3E95A0B /* Core */,
-				F0B5B4488A5DD1426155E211BCDAD689 /* Support Files */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
-			path = ESSAbout;
-			sourceTree = "<group>";
-		};
-		F0B5B4488A5DD1426155E211BCDAD689 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AF82173BFF0729A64A8D2FC745EF8F4C /* ESSAbout.modulemap */,
-				866065F9FFBC6DAA4F50BBA4E8BB788F /* ESSAbout-dummy.m */,
-				B39EEAB34CBEDA6B80110D3C770235F7 /* ESSAbout-Info.plist */,
-				A5A8C99C40DD39C4E988BD46932E64FA /* ESSAbout-prefix.pch */,
-				45C28F21201A7CDDFBF3CCBB87A48A86 /* ESSAbout-umbrella.h */,
-				2732F4ADA38D435FC483C57AC03C4DAC /* ESSAbout.debug.xcconfig */,
-				BE5713BA3F52D8191BF79965E28707F9 /* ESSAbout.release.xcconfig */,
-				8AEB3B51ED54A641AB0FF6E8168B0806 /* ResourceBundle-ESSAbout-ESSAbout-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ESSAbout";
-			sourceTree = "<group>";
-		};
-		F530353981091056227425157CE5A626 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C727C3E40EB4A385F8E001253763AC63 /* ESSAbout.bundle */,
-				7034CDC7B2E2F35F3391C7E462A12D91 /* ESSAbout.framework */,
-				F79213A3BBDEFD578691C8D54218E2FE /* Pods_OrangeTrainingBox.framework */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		04B78DE56BBBB8F36B0541DC6E25D7ED /* Headers */ = {
+		651189E1B3BD66C437826BB7C644F168 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				936C5AAF5C9D73A0252730675C2D6F1D /* ESSAbout-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98C0CD39D1E6F9F6943B026081F464AC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B16CF3D283CCFA647DBB4A0D955C32C /* Pods-OrangeTrainingBox-umbrella.h in Headers */,
+				3C34388881CD091881C59D74FF5FD117 /* Pods-OrangeTrainingBox-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		890E391497EB8FC22FF32DCE924CF770 /* ESSAbout-ESSAbout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E2B8D17E4C0EC820F84B47603600D119 /* Build configuration list for PBXNativeTarget "ESSAbout-ESSAbout" */;
-			buildPhases = (
-				23F179CAB8DB0D1574660A1AAB1E8FB0 /* Sources */,
-				A93E9B3CA74279C02DAA7FDA3CDBA063 /* Frameworks */,
-				9C5425436EE358F1E4CD8DF1223B48A4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ESSAbout-ESSAbout";
-			productName = "ESSAbout-ESSAbout";
-			productReference = C727C3E40EB4A385F8E001253763AC63 /* ESSAbout.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		A1DEE1B19E32A4D3BA892CAD757FD091 /* ESSAbout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2CB2E61880392135AF4D05A8B0A97C6D /* Build configuration list for PBXNativeTarget "ESSAbout" */;
-			buildPhases = (
-				04B78DE56BBBB8F36B0541DC6E25D7ED /* Headers */,
-				3AB5EF1328B53F2F3F983F77287C7E81 /* Sources */,
-				E5554480295381FC57BF4E1CF7023AC7 /* Frameworks */,
-				3E6D4558BDF7906C75845E0835C04914 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8FDE76C5576A8273C92943800ED5D393 /* PBXTargetDependency */,
-			);
-			name = ESSAbout;
-			productName = ESSAbout;
-			productReference = 7034CDC7B2E2F35F3391C7E462A12D91 /* ESSAbout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		E3D5AC9B1C00BABD2B5750AA6F91EFBD /* Pods-OrangeTrainingBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 123E95C07F22147D09774F511908B530 /* Build configuration list for PBXNativeTarget "Pods-OrangeTrainingBox" */;
+			buildConfigurationList = 712C778ABF1BF17C3A0A28B3AA3479B2 /* Build configuration list for PBXNativeTarget "Pods-OrangeTrainingBox" */;
 			buildPhases = (
-				98C0CD39D1E6F9F6943B026081F464AC /* Headers */,
-				26B6B4F63DBB315BD953842C124AD9D2 /* Sources */,
-				2C40E7EAED5A15AD891D38698F3B4477 /* Frameworks */,
-				07170FED7A391FD5B0B3620ADA2549C7 /* Resources */,
+				651189E1B3BD66C437826BB7C644F168 /* Headers */,
+				D6C95E4E79C5EB90C43945176E5495CA /* Sources */,
+				9B9A354D2CFF4F400528FD90C92CC18A /* Frameworks */,
+				31F2369B3993A5F20B8ADE1E6352DF9C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AA0C4B067AB5BF6259FB5FB73DBC7026 /* PBXTargetDependency */,
-				E6747AB96B8DD73A04439F4C65855F76 /* PBXTargetDependency */,
+				A36EAF8C2ECABE74908E9B55A94C0216 /* PBXTargetDependency */,
 			);
 			name = "Pods-OrangeTrainingBox";
-			productName = "Pods-OrangeTrainingBox";
-			productReference = F79213A3BBDEFD578691C8D54218E2FE /* Pods_OrangeTrainingBox.framework */;
+			productName = Pods_OrangeTrainingBox;
+			productReference = F79213A3BBDEFD578691C8D54218E2FE /* Pods-OrangeTrainingBox */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -403,20 +191,18 @@
 				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F530353981091056227425157CE5A626 /* Products */;
+			productRefGroup = 2EB4BB7A875FA23ED8C58DD7456F5095 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1DEE1B19E32A4D3BA892CAD757FD091 /* ESSAbout */,
-				890E391497EB8FC22FF32DCE924CF770 /* ESSAbout-ESSAbout */,
 				E3D5AC9B1C00BABD2B5750AA6F91EFBD /* Pods-OrangeTrainingBox */,
 				1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */,
 			);
@@ -424,118 +210,39 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		07170FED7A391FD5B0B3620ADA2549C7 /* Resources */ = {
+		31F2369B3993A5F20B8ADE1E6352DF9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E6D4558BDF7906C75845E0835C04914 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A001076DAEEB957C442EAED40CA99E9 /* ESSAbout.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C5425436EE358F1E4CD8DF1223B48A4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				66C7649FA6A88A57982DF30828ED5D95 /* en.lproj in Resources */,
-				0B20B3D5AC6B6A6373F2F01FF0C5606A /* ESSAbout.storyboard in Resources */,
-				6FF87E4C3E6ACC8544EB1CCAF0DB6443 /* ESSAbout_logo_rgb.png in Resources */,
-				A9F5DD036C7D16E9811DE10AF7DCAF79 /* ESSAbout_logo_rgb@2x.png in Resources */,
-				F4CEBD60E4D7AA0A2C1D6EED7A0E0A98 /* ESSAbout_logo_rgb@3x.png in Resources */,
-				FF60E9405A0673F23D95A45245C924F0 /* ESSAboutWebViewControllerBackButton.png in Resources */,
-				59F0B643A42EE8FAC930AE1C2C87A0EA /* ESSAboutWebViewControllerBackButton@2x.png in Resources */,
-				85117B75547E1C9BCDDFB1A2AD560483 /* ESSAboutWebViewControllerBackButton@3x.png in Resources */,
-				23CABC4590AFA2C535480FACA62AF849 /* ESSAboutWebViewControllerForwardButton.png in Resources */,
-				8DFBC1FF02A607A077C66611CE73CDDD /* ESSAboutWebViewControllerForwardButton@2x.png in Resources */,
-				3DBF41CF8550A21F374740232625C278 /* ESSAboutWebViewControllerForwardButton@3x.png in Resources */,
-				4D822B20F690DA5AE8AE655897E2D143 /* ESSAboutWorkdesk.png in Resources */,
-				0D0401E389B72134D15370BB1F2B315C /* ESSAboutWorkdesk@2x.png in Resources */,
-				A4D88C0145D592AAAD4DE5E850E2FAFD /* ESSAboutWorkdesk@3x.png in Resources */,
-				2F774EDE93BD52ED12B13648A0CA8309 /* fr.lproj in Resources */,
-				39A45187B071408F1B6E97668CC9AD36 /* styles_light.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		23F179CAB8DB0D1574660A1AAB1E8FB0 /* Sources */ = {
+		D6C95E4E79C5EB90C43945176E5495CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26B6B4F63DBB315BD953842C124AD9D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08DD3FE835F441F3A69950655988E3F7 /* Pods-OrangeTrainingBox-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3AB5EF1328B53F2F3F983F77287C7E81 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F94683364E4A027DB76422ACBD0AE8C1 /* ESSAbout-dummy.m in Sources */,
-				0C270D35B0A0BE600D64222C311994FB /* ESSAboutCustomDelegate.swift in Sources */,
-				C144854B883D5F947CADF11F177019A4 /* ESSAboutDetailViewController.swift in Sources */,
-				7AE421B3AFD0BF66730D6D7F3390DD6E /* ESSAboutElement.swift in Sources */,
-				90F1DFD8AC1727714EC69B27079535F1 /* ESSAboutHeaderCell.swift in Sources */,
-				DE61A25C10AAC4B2B7AFFD37F56B6B18 /* ESSAboutManager.swift in Sources */,
-				F4D30EB64D26DC1858B87870FBD8AD26 /* ESSAboutSplitViewController.swift in Sources */,
-				099772F4D476EBF9FE73CD02F7F56956 /* ESSAboutStatDelegate.swift in Sources */,
-				AEC7FFA4671C71C337358224134451A8 /* ESSAboutViewController.swift in Sources */,
-				894D219698E080EC111A62D2857E68C4 /* UIFont+ESSContentSize.swift in Sources */,
+				21F5D9CA8EEC2D10D65EC4ED74BFBECB /* Pods-OrangeTrainingBox-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8FDE76C5576A8273C92943800ED5D393 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ESSAbout-ESSAbout";
-			target = 890E391497EB8FC22FF32DCE924CF770 /* ESSAbout-ESSAbout */;
-			targetProxy = 461DABD727C2C99D7F3E33DD8820F6C7 /* PBXContainerItemProxy */;
-		};
-		AA0C4B067AB5BF6259FB5FB73DBC7026 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ESSAbout;
-			target = A1DEE1B19E32A4D3BA892CAD757FD091 /* ESSAbout */;
-			targetProxy = 2EB1BE4DE2FD89E0AC8796A7BB9610A9 /* PBXContainerItemProxy */;
-		};
-		E6747AB96B8DD73A04439F4C65855F76 /* PBXTargetDependency */ = {
+		A36EAF8C2ECABE74908E9B55A94C0216 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftGen;
 			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
-			targetProxy = 7703EF93FAF0AEFBF1A4142CE3DFF8CC /* PBXContainerItemProxy */;
+			targetProxy = 0F927DFBA4D4CA3665FC3A5579BC5095 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		25EFBD6B0C4C553B94A9C55A0F7DA7BF /* ESSAbout.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AADC048C30E08877393BB0B227482F8 /* ESSAbout.storyboard */,
-			);
-			name = ESSAbout.storyboard;
-			path = ESSAbout/Classes/Core;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2202230BF25CAB2FDC609A71D79055BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F3BE264945C2D6F67A08B084B490010 /* SwiftGen.debug.xcconfig */;
+			baseConfigurationReference = FD691AE7128F940D3B179941FCEC2F54 /* SwiftGen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -549,61 +256,9 @@
 			};
 			name = Debug;
 		};
-		2A32972546F2AEA57BA5E27E2728FEF7 /* Release */ = {
+		4362D17564ED5FE5A4511729CB15FD1F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE5713BA3F52D8191BF79965E28707F9 /* ESSAbout.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ESSAbout/ESSAbout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ESSAbout/ESSAbout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ESSAbout/ESSAbout.modulemap";
-				PRODUCT_MODULE_NAME = ESSAbout;
-				PRODUCT_NAME = ESSAbout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2F7DD069C2AB4B531438D13976DE9965 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE5713BA3F52D8191BF79965E28707F9 /* ESSAbout.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ESSAbout";
-				DEVELOPMENT_TEAM = MG2LSJNJB6;
-				IBSC_MODULE = ESSAbout;
-				INFOPLIST_FILE = "Target Support Files/ESSAbout/ResourceBundle-ESSAbout-ESSAbout-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = ESSAbout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		3C6098CF50CACF33327C5D91D3C6332E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5C901BAB9815F06D0983A4D79734EE1 /* Pods-OrangeTrainingBox.debug.xcconfig */;
+			baseConfigurationReference = 8730DC0A26FF6B527095B99E61F73248 /* Pods-OrangeTrainingBox.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -635,57 +290,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		448A4C877D5AF7DABDA58FE6EF2EF384 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2732F4ADA38D435FC483C57AC03C4DAC /* ESSAbout.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ESSAbout/ESSAbout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ESSAbout/ESSAbout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ESSAbout/ESSAbout.modulemap";
-				PRODUCT_MODULE_NAME = ESSAbout;
-				PRODUCT_NAME = ESSAbout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		830941BA2F6DFD2D34149555A0215E61 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2732F4ADA38D435FC483C57AC03C4DAC /* ESSAbout.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ESSAbout";
-				DEVELOPMENT_TEAM = MG2LSJNJB6;
-				IBSC_MODULE = ESSAbout;
-				INFOPLIST_FILE = "Target Support Files/ESSAbout/ResourceBundle-ESSAbout-ESSAbout-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = ESSAbout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -748,6 +352,44 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A8DDB19E252D6439E847308553AB228B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392A1405D5E13F14F4DDB7CFB0B6E8F0 /* Pods-OrangeTrainingBox.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrangeTrainingBox/Pods-OrangeTrainingBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrangeTrainingBox/Pods-OrangeTrainingBox.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -819,7 +461,7 @@
 		};
 		CF3B4AB84D0F77E437676BAFB9C2086C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61D234981C96F5FE0A8B69BE9C181777 /* SwiftGen.release.xcconfig */;
+			baseConfigurationReference = B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -834,65 +476,9 @@
 			};
 			name = Release;
 		};
-		D573E88AE4BDEA9ECD549888976A8C33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFAB297FD9C7E19033453120669B9DF7 /* Pods-OrangeTrainingBox.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OrangeTrainingBox/Pods-OrangeTrainingBox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OrangeTrainingBox/Pods-OrangeTrainingBox.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		123E95C07F22147D09774F511908B530 /* Build configuration list for PBXNativeTarget "Pods-OrangeTrainingBox" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C6098CF50CACF33327C5D91D3C6332E /* Debug */,
-				D573E88AE4BDEA9ECD549888976A8C33 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2CB2E61880392135AF4D05A8B0A97C6D /* Build configuration list for PBXNativeTarget "ESSAbout" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				448A4C877D5AF7DABDA58FE6EF2EF384 /* Debug */,
-				2A32972546F2AEA57BA5E27E2728FEF7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -902,11 +488,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2B8D17E4C0EC820F84B47603600D119 /* Build configuration list for PBXNativeTarget "ESSAbout-ESSAbout" */ = {
+		712C778ABF1BF17C3A0A28B3AA3479B2 /* Build configuration list for PBXNativeTarget "Pods-OrangeTrainingBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				830941BA2F6DFD2D34149555A0215E61 /* Debug */,
-				2F7DD069C2AB4B531438D13976DE9965 /* Release */,
+				4362D17564ED5FE5A4511729CB15FD1F /* Debug */,
+				A8DDB19E252D6439E847308553AB228B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

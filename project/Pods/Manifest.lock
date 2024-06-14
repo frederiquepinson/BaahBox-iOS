@@ -1,21 +1,16 @@
 PODS:
-  - ESSAbout/Core (2.7.0)
-  - SwiftGen (6.1.0)
+  - SwiftGen (6.6.3)
 
 DEPENDENCIES:
-  - ESSAbout/Core
   - SwiftGen
 
 SPEC REPOS:
-  "gitolite@www.forge.orange-labs.fr:orangecocoapods/public.git":
-    - ESSAbout
   trunk:
     - SwiftGen
 
 SPEC CHECKSUMS:
-  ESSAbout: 17624adad067d04bbe5473660691adbbbb382310
-  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
+  SwiftGen: 4993cbf71cbc4886f775e26f8d5c3a1188ec9f99
 
-PODFILE CHECKSUM: ced72b31a5f941f051446418924dce7bf312a0e8
+PODFILE CHECKSUM: 9fcc29e60430bf2a6054162f69e9a7419b5027b9
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.11.3
