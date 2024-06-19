@@ -50,9 +50,10 @@ platform :ios do
       workspace: "#{XCODE_XCWORKSPACE}",
       scheme: "#{XCODE_SCHEME}",
       export_method: "app-store",
+      skip_profile_detection: true,
       export_options: {
         provisioningProfiles: {
-            DEVELOPER_APP_ID => "#{PROVISIONING_PROFILE_SPECIFIER}"
+            DEVELOPER_APP_IDENTIFIER => "#{PROVISIONING_PROFILE_SPECIFIER}"
         }
       }
     )
