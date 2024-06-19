@@ -12,3 +12,6 @@ DerivedData/
 # Pod
 Pods
 project/Podfile.lock
+
+#fastlane
+**/build_fastlane
